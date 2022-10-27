@@ -9,7 +9,7 @@ from snapshot_selenium import snapshot
 import numpy as np
 import time
 import datetime
-import os
+import os,stat
 import seaborn as sns
 import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
@@ -34,8 +34,11 @@ def main(_end_date,_last_week):
     # 数据准备
     start_date = _last_week
     end_date = _end_date
-    df = pd.read_excel("配置汇总.xlsx",sheet_name="现货价格")
-    save_dir = "./大宗商品数据/"
+    df = pd.read_excel("../配置/配置.xlsx",sheet_name="现货价格")
+    save_dir = os.getcwd() + '/' + end_date + '/热力图/'
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+        os.chmod(save_dir, stat.S_IWOTH)
     cursor = db.cursor()
     length = len(df) #获取需要读取的价格数据长度
     cate_percent = []
@@ -81,10 +84,17 @@ def main(_end_date,_last_week):
 
     '''根据数值返回颜色'''
     def find_color(val):
+        #涨
         if val > 2.00:return "涨",'rgb(139, 0, 0)'
-        elif val > 0 and val <= 2.00:return "涨",'rgb(255, 0, 0)'
-        elif val < -2.00:return "跌",'rgb(0, 100, 0)'
-        elif val >= -2.00 and val < 0:return "跌",'rgb(0, 255, 0)'
+        elif val > 1.00 and val <= 2.00:return "涨",'rgb(255, 0, 0)'
+        elif val > 0.5 and val <= 1.00:return "涨", 'rgb(255,48,48)'
+        elif val > 0 and val <= 0.5:return "涨", 'rgb(255,106,106)'
+        #跌
+        elif val < 0 and val >= -0.5 :return "跌", 'rgb(144,238,144)'
+        elif val < -0.5 and val >= -1.0 :return "跌", 'rgb(0, 255, 127)'
+        elif val < -1.0 and val >= -2.0:return "跌",'rgb(0, 255, 0)'
+        elif val < -2.0 :return "跌",'rgb(0, 139, 0)'
+        #不变
         else:return "波动较小",'rgb(128, 128, 128)'
 
     title = '商品指数周涨跌幅热力图（分板块）'
@@ -92,34 +102,35 @@ def main(_end_date,_last_week):
     pieces = []#分层
     for cate_x in cate_percent:
         children_x = {}
-        children_x["value"] = round(abs(cate_x[2]),2)#录入成正数
-        new_val = round(cate_x[2],2)
+        children_x["value"] = round(abs(cate_x[2]),1)#录入成正数
+        new_val = round(cate_x[2],1)
         #children_x["value"] = round((cate_x[2]), 2)
-        children_x["name"]= cate_x[0]
+        abs_val = abs(new_val)
+        children_x["name"]= cate_x[0] + '\n' + str(abs_val) + '%'
         flag,new_color = find_color(new_val)
         pieces.append({"min":abs(new_val),"max":abs(new_val),"label":children_x["name"]+flag+str(abs(new_val))+'%',"color":new_color})
         #tmp_tree_item = opts.TreeItem(name =children_x["name"],value=children_x["value"],itemstyle_opts=opts.ItemStyleOpts(color=find_color(cate_x[2])) )
         #children_x["label_opts"] = opts.LabelOpts(color=find_color(cate_x[2]))
 
         if not tree or find_father(tree,cate_x[1]) == -1:
-            tree.append({'value':round(abs(cate_x[2]),2),"name":cate_x[1],"children":[copy.deepcopy(children_x)]})
+            tree.append({'value':round(abs(cate_x[2]),1),"name":cate_x[1] ,"children":[copy.deepcopy(children_x)]})
         else:
             tar_list = tree[find_father(tree,cate_x[1])]
             tar_list['value'] += children_x["value"]
             tar_list['children'].append(copy.deepcopy(children_x))
     tm = (
         TreeMap()
-            .add(end_date,data = tree,color_saturation=[0,0.5])
-            .set_global_opts(visualmap_opts=opts.VisualMapOpts(is_show=True,is_piecewise=True, pieces=pieces)
+            .add(end_date,data = tree,color_saturation=[0,0.5],width='90%',height='90%')
+            .set_global_opts(visualmap_opts=opts.VisualMapOpts(is_show=False,is_piecewise=True, pieces=pieces)
             ,title_opts=opts.TitleOpts(title='商品指数周涨跌幅热力图（分板块）', subtitle='平安期货')
         )
     )
-    tm.render('矩形树图-例一.html')
-    make_snapshot(snapshot, tm.render(), "矩形树图-例一.png")
+    tm.render( save_dir + '热力图.html')
+    make_snapshot(snapshot, tm.render(), save_dir + "热力图.png")
 
 
 if __name__ == "__main__":
-    main()
+    main('20221021','20221014')
 
 
 

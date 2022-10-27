@@ -7,7 +7,7 @@ from matplotlib.ticker import PercentFormatter
 import datetime
 import cx_Oracle
 import openpyxl
-import os
+import os,stat
 #  调色
 myfont=FontProperties(fname=r'C:\Windows\Fonts\simhei.ttf',size=14)
 sns.set(font=myfont.get_name(), palette = 'Oranges_r', style = 'white')
@@ -20,14 +20,17 @@ def main(_end_date,_last_week):
     cursor = db.cursor()
     end_date = _end_date
     start_date = str(int(end_date[:4]) - 4) + end_date[4:]  # start_date 取4年
-    save_dir = './流动性/'
+    save_dir = os.getcwd() + '/' + end_date + '/流动性/'
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+        os.chmod(save_dir, stat.S_IWOTH)
     last_week = _last_week
     date1 = datetime.datetime.strptime(end_date, "%Y%m%d")
     date2 = datetime.datetime.strptime(last_week, "%Y%m%d")
     days_count = (date2 - date1).days
 
     '''动量 波动率等存在于同一个表格不需要读'''
-    tmp_df = pd.read_excel("配置5.xlsx",sheet_name="期货价格")
+    tmp_df = pd.read_excel("../配置/配置.xlsx",sheet_name="期货价格")
     momentum_list = []
     for i in range(len(tmp_df)):
         tuple_x = tmp_df.iloc[i, :]
@@ -78,23 +81,11 @@ def main(_end_date,_last_week):
     top_dev.reverse()
     top_diff.reverse()
 
-    diff_txt_list = ['过去一周分位值上升靠前：' + str(top_diff).replace('[', '').replace(']', '').replace("'", ''),
-                     '过去一周分位值下降靠前：' + str(bottom_diff).replace('[', '').replace(']', '').replace("'", '')]
-    dev_txt_list = ['相对过去四年处于75%高分位：' + str(top_dev).replace('[', '').replace(']', '').replace("'", ''),
-                    '相对过去四年处于25%低分位：' + str(bottom_dev).replace('[', '').replace(']', '').replace("'", '')]
+    diff_txt_list = ['过去一周分位值上升靠前：' , str(top_diff).replace('[', '').replace(']', '').replace("'", ''),
+                     '过去一周分位值下降靠前：' , str(bottom_diff).replace('[', '').replace(']', '').replace("'", '')]
+    dev_txt_list = ['相对过去四年处于75%高分位：' , str(top_dev).replace('[', '').replace(']', '').replace("'", ''),
+                    '相对过去四年处于25%低分位：' , str(bottom_dev).replace('[', '').replace(']', '').replace("'", '')]
 
-    '''写入文档'''
-    wb = openpyxl.Workbook()
-    ws = wb.active
-    ws.append(["流动性"])
-    ws.append(diff_txt_list)
-    ws.append(dev_txt_list)
-    file_name = save_dir  + '流动性'
-    try:
-        os.remove(file_name)
-    except:
-        pass
-    wb.save(save_dir  + '流动性' + '.xlsx')
 
     '''画图'''
     # 由于图较大，分成了2个部分来做这个图
@@ -151,6 +142,22 @@ def main(_end_date,_last_week):
 
     plt.savefig(save_dir + title + '.png', bbox_inches='tight')
     plt.show()
+
+    return [["流动性"], (diff_txt_list[0], diff_txt_list[1]), (diff_txt_list[2], diff_txt_list[3]),
+            (dev_txt_list[0], dev_txt_list[1]), (dev_txt_list[2], dev_txt_list[3])]
+    '''写入文档'''
+    '''
+    excel_name = os.getcwd() + '/' + end_date + '/' + end_date + '.xlsx'
+    wb = openpyxl.load_workbook(filename=excel_name)
+    ws = wb.active
+    # pre_row = ws.max_row
+    ws.append(["流动性"])
+    ws.append((diff_txt_list[0], diff_txt_list[1]))
+    ws.append((diff_txt_list[2], diff_txt_list[3]))
+    ws.append((dev_txt_list[0], dev_txt_list[1]))
+    ws.append((dev_txt_list[2], dev_txt_list[3]))
+    wb.save(excel_name)
+    '''
 
 
 if __name__ =='__main__':

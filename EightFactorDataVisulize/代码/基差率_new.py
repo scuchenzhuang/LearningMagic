@@ -1,5 +1,4 @@
 import os,stat
-
 import openpyxl
 import pandas as pd
 import numpy as np
@@ -131,21 +130,10 @@ def main(_end_date,_last_week):
     dev_txt = '相对过去四年处于75%高分位：' + str(top_dev).replace('[', '').replace(']', '').replace("'", '') + '\n' \
               + '相对过去四年处于25%低分位：' + str(bottom_dev).replace('[', '').replace(']', '').replace("'", '')
     '''
-    diff_txt_list = ['过去一周分位值上升靠前：' + str(top_diff).replace('[', '').replace(']', '').replace("'", ''),'过去一周分位值下降靠前：' + str(bottom_diff).replace('[', '').replace(']', '').replace("'", '')]
-    dev_txt_list = ['相对过去四年处于75%高分位：' + str(top_dev).replace('[', '').replace(']', '').replace("'", '') ,'相对过去四年处于25%低分位：' + str(bottom_dev).replace('[', '').replace(']', '').replace("'", '')]
+    diff_txt_list = ['过去一周分位值上升靠前：' , str(top_diff).replace('[', '').replace(']', '').replace("'", ''),'过去一周分位值下降靠前：' , str(bottom_diff).replace('[', '').replace(']', '').replace("'", '')]
+    dev_txt_list = ['相对过去四年处于75%高分位：' , str(top_dev).replace('[', '').replace(']', '').replace("'", '') ,'相对过去四年处于25%低分位：' , str(bottom_dev).replace('[', '').replace(']', '').replace("'", '')]
 
-    '''写入文档'''
-    wb = openpyxl.Workbook()
-    ws = wb.active
-    ws.append(["基差率"])
-    ws.append(diff_txt_list)
-    ws.append(dev_txt_list)
-    file_name = save_dir +'/'+ '基差率'
-    try:
-        os.remove(file_name)
-    except:
-        pass
-    wb.save(save_dir + '基差率' + '.xlsx')
+
 
     '''画图'''
     plt.clf()
@@ -230,8 +218,21 @@ def main(_end_date,_last_week):
     plt.savefig(save_dir + title + '.png', bbox_inches='tight')
     plt.show()
 
+    return [["基差率"],(diff_txt_list[0], diff_txt_list[1]),(diff_txt_list[2], diff_txt_list[3]),(dev_txt_list[0], dev_txt_list[1]),(dev_txt_list[2], dev_txt_list[3])]
+    '''写入文档'''
+    '''
+    excel_name = os.getcwd() + '/' + end_date + '/' + end_date + '.xlsx'
+    wb = openpyxl.load_workbook(filename=excel_name)
+    ws = wb.active
+    # pre_row = ws.max_row
+    ws.append(["基差率"])
+    ws.append((diff_txt_list[0], diff_txt_list[1]))
+    ws.append((diff_txt_list[2], diff_txt_list[3]))
+    ws.append((dev_txt_list[0], dev_txt_list[1]))
+    ws.append((dev_txt_list[2], dev_txt_list[3]))
+    wb.save(excel_name)
     cursor.close()
-
+    '''
 if __name__ == "__main__":
     print("开始计算基差率")
     main("20221021","20220930")

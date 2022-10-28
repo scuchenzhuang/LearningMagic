@@ -8,6 +8,7 @@ import matplotlib.pyplot as plt
 from matplotlib.font_manager import FontProperties
 from matplotlib.ticker import PercentFormatter
 import cx_Oracle
+import PingAnFunction.func2_count_once as count_once
 #  调色
 myfont=FontProperties(fname=r'C:\Windows\Fonts\simhei.ttf',size=14)
 sns.set(font=myfont.get_name(), palette = 'Oranges_r', style = 'white')
@@ -101,6 +102,7 @@ def main(_end_date,_last_week):
     spread_df = spread_df.astype(float)
     '''按照inf和0置空 前值填充'''
 
+    #spread_df  = spread_df.loc[last_week].fillna(method='ffill')
     spread_df.dropna(axis=1,inplace=True,how='all') #如果某一列全为空那么除去这些数据
     spread_df.dropna(axis=0, inplace=True, how='all')  # 如果某一行全为空那么除去这些数据
     spread_df = spread_df.replace(0, np.nan).fillna(method='ffill')
@@ -144,7 +146,7 @@ def main(_end_date,_last_week):
     #quantile_sort.fillna('-')
     #violins = sns.violinplot(data=quantile_sort[quantile_sort!='-'], orient='h',linewidth=0.5)
     violins = sns.violinplot(data=quantile_sort, orient='h',linewidth=0.5)
-    plt.plot(quantile_sort.loc[last_week], quantile_sort.columns, 'bD')
+    plt.plot(count_once.count_once(quantile_sort.loc[last_week]), quantile_sort.columns, 'bD')
     plt.plot(quantile_sort.iloc[-1], quantile_sort.columns, 'rs',markersize=13)
     plt.rcParams['axes.unicode_minus'] = False
     plt.gca().xaxis.set_major_formatter(PercentFormatter(xmax=1, decimals=0))
@@ -172,7 +174,7 @@ def main(_end_date,_last_week):
     title = '基差率过去4年分位-箱线密度图-1'
     fig = plt.figure(figsize=(16, 16))
     sns.violinplot(data=quantile_sort_top, orient='h')
-    plt.plot(quantile_sort_top.loc[last_week], quantile_sort_top.columns, 'bD')
+    plt.plot(count_once.count_once(quantile_sort_top.loc[last_week]), quantile_sort_top.columns, 'bD')
     plt.plot(quantile_sort_top.iloc[-1], quantile_sort_top.columns, 'rs')
     plt.rcParams['axes.unicode_minus'] = False
     plt.gca().xaxis.set_major_formatter(PercentFormatter(xmax=1, decimals=0))
@@ -198,7 +200,7 @@ def main(_end_date,_last_week):
     title = '基差率过去4年分位-箱线密度图-2'
     fig = plt.figure(figsize=(16, 16))
     sns.violinplot(data=quantile_sort_bottom, orient='h')
-    plt.plot(quantile_sort_bottom.loc[last_week], quantile_sort_bottom.columns, 'bD')
+    plt.plot(count_once.count_once(quantile_sort_bottom.loc[last_week]), quantile_sort_bottom.columns, 'bD')
     plt.plot(quantile_sort_bottom.iloc[-1], quantile_sort_bottom.columns, 'rs')
     plt.rcParams['axes.unicode_minus'] = False
     plt.gca().xaxis.set_major_formatter(PercentFormatter(xmax=1, decimals=0))
@@ -235,4 +237,4 @@ def main(_end_date,_last_week):
     '''
 if __name__ == "__main__":
     print("开始计算基差率")
-    main("20221021","20220930")
+    main("20221027","20221020")

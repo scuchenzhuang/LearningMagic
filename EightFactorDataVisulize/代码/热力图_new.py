@@ -106,7 +106,8 @@ def main(_end_date,_last_week):
         new_val = round(cate_x[2],1)
         #children_x["value"] = round((cate_x[2]), 2)
         abs_val = abs(new_val)
-        children_x["name"]= cate_x[0] + '\n' + str(abs_val) + '%'
+        if new_val < 0:children_x["name"]= cate_x[0] + '\n' + '-' +str(abs_val) + '%'
+        else:children_x["name"]= cate_x[0] + '\n' + str(abs_val) + '%'
         flag,new_color = find_color(new_val)
         pieces.append({"min":abs(new_val),"max":abs(new_val),"label":children_x["name"]+flag+str(abs(new_val))+'%',"color":new_color})
         #tmp_tree_item = opts.TreeItem(name =children_x["name"],value=children_x["value"],itemstyle_opts=opts.ItemStyleOpts(color=find_color(cate_x[2])) )
@@ -130,7 +131,7 @@ def main(_end_date,_last_week):
 
 
 if __name__ == "__main__":
-    main('20221021','20221014')
+    main()
 
 
 

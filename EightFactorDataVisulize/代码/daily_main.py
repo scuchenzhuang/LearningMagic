@@ -18,9 +18,9 @@ from multiprocessing import Pool
 def main():
     '''此处修改今日日期，与之比较的上周数据'''
     '''今日'''
-    end_date = "20221021"
+    end_date = "20221027"
     '''与上周的哪一日进行比较'''
-    last_week = '20221014'
+    last_week = '20221020'
 
 
     path = os.getcwd()
@@ -65,9 +65,12 @@ def main():
     wb = openpyxl.load_workbook(filename=file)
     ws = wb.active
     for res in results:
-        tmplist = res.get()
-        for tmp in tmplist:
-            ws.append(tmp)
+        try:
+            tmplist = res.get()
+            for tmp in tmplist:
+                ws.append(tmp)
+        except:
+            print("存在执行出错的图片，请检查")
     wb.save(file)
 
     '''

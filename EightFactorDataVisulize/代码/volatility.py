@@ -50,7 +50,7 @@ def main(_end_date,_last_week):
     for momentum in momentum_list:
         tmp_dataname = '波动率'
         tmp_table = 'FACTOR_PAQHYJS_FEATURE'
-        str_cur = ''' select F_VALUE,F_DATE from ''' + tmp_table + ''' where F_FEATURE =''' + """'""" + tmp_dataname + """'""" +  ''' and F_S_NAME =''' + """'""" + momentum + """'""" +''' and F_DATE>=''' + """'""" + start_date + """'""" + ''' and F_DATE<=''' + """'""" + end_date + """'"""
+        str_cur = ''' select F_VALUE,F_DATE from ''' + tmp_table + ''' where F_DATANAME =''' + """'""" + tmp_dataname + """'""" +  ''' and F_UPDATE_TYPE =''' + """'""" + momentum + """'""" +''' and F_DATE>=''' + """'""" + start_date + """'""" + ''' and F_DATE<=''' + """'""" + end_date + """'"""
         print(str_cur)
         cursor = db.cursor()
         cursor.execute(str_cur)

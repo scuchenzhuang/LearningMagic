@@ -100,21 +100,24 @@ def main(_end_date,_last_week):
     title = '商品指数周涨跌幅热力图（分板块）'
     tree = []
     pieces = []#分层
-    for cate_x in cate_percent:
+    for tran,cate_x in enumerate(cate_percent):
         children_x = {}
-        children_x["value"] = round(abs(cate_x[2]),1)#录入成正数
-        new_val = round(cate_x[2],1)
+        children_x["value"] = abs(cate_x[2]) + 0.00000000000001 * tran#录入成正数
+        new_val = round(cate_x[2],1) #new_val代表他的名义数值
+        raw_val = cate_x[2] #raw_Val指的是他不加修改的值
         #children_x["value"] = round((cate_x[2]), 2)
         abs_val = abs(new_val)
+        raw_val = children_x["value"]
         if new_val < 0:children_x["name"]= cate_x[0] + '\n' + '-' +str(abs_val) + '%'
         else:children_x["name"]= cate_x[0] + '\n' + str(abs_val) + '%'
+
         flag,new_color = find_color(new_val)
-        pieces.append({"min":abs(new_val),"max":abs(new_val),"label":children_x["name"]+flag+str(abs(new_val))+'%',"color":new_color})
+        pieces.append({"min":abs(raw_val),"max":abs(raw_val),"label":children_x["name"]+flag+str(abs(new_val))+'%',"color":new_color})
         #tmp_tree_item = opts.TreeItem(name =children_x["name"],value=children_x["value"],itemstyle_opts=opts.ItemStyleOpts(color=find_color(cate_x[2])) )
         #children_x["label_opts"] = opts.LabelOpts(color=find_color(cate_x[2]))
 
         if not tree or find_father(tree,cate_x[1]) == -1:
-            tree.append({'value':round(abs(cate_x[2]),1),"name":cate_x[1] ,"children":[copy.deepcopy(children_x)]})
+            tree.append({'value':round(cate_x[2],1),"name":cate_x[1] ,"children":[copy.deepcopy(children_x)]})
         else:
             tar_list = tree[find_father(tree,cate_x[1])]
             tar_list['value'] += children_x["value"]
@@ -131,7 +134,7 @@ def main(_end_date,_last_week):
 
 
 if __name__ == "__main__":
-    main()
+    main("20221027","20221020")
 
 
 

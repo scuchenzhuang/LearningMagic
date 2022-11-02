@@ -132,8 +132,8 @@ def main(_end_date,_last_week):
     dev_txt = '相对过去四年处于75%高分位：' + str(top_dev).replace('[', '').replace(']', '').replace("'", '') + '\n' \
               + '相对过去四年处于25%低分位：' + str(bottom_dev).replace('[', '').replace(']', '').replace("'", '')
     '''
-    diff_txt_list = ['过去一周分位值上升靠前：' , str(top_diff).replace('[', '').replace(']', '').replace("'", ''),'过去一周分位值下降靠前：' , str(bottom_diff).replace('[', '').replace(']', '').replace("'", '')]
-    dev_txt_list = ['相对过去四年处于75%高分位：' , str(top_dev).replace('[', '').replace(']', '').replace("'", '') ,'相对过去四年处于25%低分位：' , str(bottom_dev).replace('[', '').replace(']', '').replace("'", '')]
+    diff_txt_list = ['过去一周分位值上升靠前' , str(top_diff).replace('[', '').replace(']', '').replace("'", ''),'过去一周分位值下降靠前' , str(bottom_diff).replace('[', '').replace(']', '').replace("'", '')]
+    dev_txt_list = ['相对过去四年处于75%高分位' , str(top_dev).replace('[', '').replace(']', '').replace("'", '') ,'相对过去四年处于25%低分位' , str(bottom_dev).replace('[', '').replace(']', '').replace("'", '')]
 
 
 

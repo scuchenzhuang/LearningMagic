@@ -1,0 +1,3 @@
+{
+  "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEyOTM0fQ.CEgKh6EqeP_T2j21ngW3soSjt2xAW1ZyMVesJLUXWOU"
+}

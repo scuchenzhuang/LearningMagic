@@ -112,7 +112,7 @@ def main(_end_date,_last_week):
         else:children_x["name"]= cate_x[0] + '\n' + str(abs_val) + '%'
 
         flag,new_color = find_color(new_val)
-        pieces.append({"min":abs(raw_val),"max":abs(raw_val),"label":children_x["name"]+flag+str(abs(new_val))+'%',"color":new_color})
+        pieces.append({"min":abs(raw_val),"max":abs(raw_val),"label":children_x["name"]+flag+str(abs(new_val))+'%',"color":new_color })
         #tmp_tree_item = opts.TreeItem(name =children_x["name"],value=children_x["value"],itemstyle_opts=opts.ItemStyleOpts(color=find_color(cate_x[2])) )
         #children_x["label_opts"] = opts.LabelOpts(color=find_color(cate_x[2]))
 
@@ -124,7 +124,7 @@ def main(_end_date,_last_week):
             tar_list['children'].append(copy.deepcopy(children_x))
     tm = (
         TreeMap()
-            .add(end_date,data = tree,color_saturation=[0,0.5],width='90%',height='90%')
+            .add(end_date,data = tree,color_saturation=[0,0.5],width='90%',height='90%' )
             .set_global_opts(visualmap_opts=opts.VisualMapOpts(is_show=False,is_piecewise=True, pieces=pieces)
             ,title_opts=opts.TitleOpts(title='商品指数周涨跌幅热力图（分板块）', subtitle='平安期货')
         )
@@ -134,7 +134,7 @@ def main(_end_date,_last_week):
 
 
 if __name__ == "__main__":
-    main("20221027","20221020")
+    main("20221103","20221027")
 
 
 

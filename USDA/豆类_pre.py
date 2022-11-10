@@ -3,9 +3,12 @@ import openpyxl
 import pandas as pd
 import numpy as np
 
-SoyMapKeys = [ 'Area Planted' ,'Area Harvested', 'Yield per Harvested Acre', 'Beginning Stocks', 'Production', 'Imports', '    Supply, Total', 'Crushings', 'Exports', 'Seed', 'Residual', '    Use, Total', 'Ending Stocks', 'Avg. Farm Price ($/bu)  2/']
-SoyOilKeys = []
-key_chosen = {'soybeans':SoyMapKeys}
+#SoyMapKeys = [ 'Area Planted' ,'Area Harvested', 'Yield per Harvested Acre', 'Beginning Stocks', 'Production', 'Imports', '    Supply, Total', 'Crushings', 'Exports', 'Seed', 'Residual', '    Use, Total', 'Ending Stocks', 'Avg. Farm Price ($/bu)  2/']
+SoyMapKeys = [ 'AreaPlanted' ,'AreaHarvested', 'YieldperHarvestedAcre', 'BeginningStocks', 'Production', 'Imports', 'SupplyTotal', 'Crushings', 'Exports', 'Seed', 'Residual', 'UseTotal', 'EndingStocks', 'AvgFarmPrice']
+SoyOilKeys = ['BeginningStocks',	'Production',	'Imports',	 'SupplyTotal','Domestic','Biofuel','FoodFeedotherIndustrial',	'Exports',	'UseTotal','Endingstocks',	'AvgFarmPrice']
+SoyMealKeys = ['BeginningStocks',	'Production',	'Imports',	 'SupplyTotal','Domestic',	'Exports',	'UseTotal','EndingStocks',	'AvgFarmPrice']
+
+key_chosen = {'soybeans':SoyMapKeys,'soyoil':SoyOilKeys,'soymeal':SoyMealKeys}
 def soybeans(year,month,df,category):
     reslist = []
     #去除掉倒数第二行，没有用
@@ -28,10 +31,22 @@ def soybeans(year,month,df,category):
     for i in range(len(soy_df)):
         for j in range(3):
             tmp_map = reslist[j][-1]
-            tmp_map[soy_df.iloc[i,0]] = soy_df.iloc[i,j+1]
+            tmp_map[data_clean(str(soy_df.iloc[i,0]))] = soy_df.iloc[i,j+1]
 
     return reslist
 
+def data_clean(s):
+    '''对字符进行清理'''
+    '''清除key的所有字符，只留下字母'''
+    res = ""
+    for i in range(len(s)):
+        if s[i].isupper() or s[i].islower():
+            res += s[i]
+        if s[i] == '(' or s[i] == ')':
+            break
+    if res == 'DomesticDisappearance':return 'Domestic'
+
+    return res
 
 def write_excel(file,reslist,sheet_name,category):
     cur_period = None
@@ -45,7 +60,13 @@ def write_excel(file,reslist,sheet_name,category):
         cur_map = res[3]
         for key in key_chosen[category]:
             if key not in cur_map:
-                x_list.append('空')
+                if key == 'Biofuel':
+                    if  'Biodiesel' in cur_map:x_list.append(cur_map['Biodiesel'])
+                    else:x_list.append('空')
+                elif key == 'AvgFarmPrice':
+                    if  'AvgPrice' in cur_map:x_list.append(cur_map['AvgPrice'])
+                    else:x_list.append('空')
+                else:x_list.append('空')
             else:
                 x_list.append(cur_map[key])
         ws.append(x_list)
@@ -93,8 +114,12 @@ def read_file():
     SoybeanList = sort_res(SoybeanList)
     SoyOilList = sort_res(SoyOilList)
     SoyMealList = sort_res(SoyMealList)
-    write_excel('Soybeans.xlsx',SoybeanList,'Soybeans','soybeans')
 
+    '''写入大豆'''
+    #write_excel('Soybeans.xlsx',SoybeanList,'Soybeans','soybeans')
+
+    #write_excel('SoyOil.xlsx',SoyOilList,'SoyOil','soyoil')
+    write_excel('SoyMeal.xlsx',SoyMealList,'Soymeal','soymeal')
 
             #
             #

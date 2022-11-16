@@ -20,9 +20,9 @@ from multiprocessing import Pool
 def main():
     '''此处修改今日日期，与之比较的上周数据'''
     '''今日'''
-    end_date = "20221103"
+    end_date = "20221110"
     '''与上周的哪一日进行比较'''
-    last_week = '20221027'
+    last_week = '20221103'
 
 
     path = os.getcwd()

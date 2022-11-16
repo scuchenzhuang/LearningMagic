@@ -24,7 +24,62 @@ from pyecharts import options as opts
 myfont=FontProperties(fname=r'C:\Windows\Fonts\simhei.ttf',size=14)
 sns.set(font=myfont.get_name(), palette = 'Oranges_r', style = 'white')
 color_pa_5 = ['#ff5b00', '#ffb07c', '#a83c09', '#978a84', '#411900']
-category_teams= {"t_scsj_mysteel_data":"黑色","t_scsj_mymetal_data":"有色","t_scsj_mychemi_data":"化工","t_scsj_myagric_data":"农产品"}
+#category_teams= {"t_scsj_mysteel_data":"黑色","t_scsj_mymetal_data":"有色","t_scsj_mychemi_data":"化工","t_scsj_myagric_data":"农产品"}
+maps = {'螺纹钢':"黑色",
+'热卷':"黑色",
+'热轧卷板':"黑色",
+'锰硅':"黑色",
+'焦煤':"黑色",
+'焦炭':"黑色",
+'动力煤':"黑色",
+'铁矿石':"黑色",
+'硅铁':"黑色",
+'硅锰':"黑色",
+'铜':'有色',
+'铝':'有色',
+'锌':'有色',
+'镍':'有色',
+'不锈钢':'有色',
+'PTA':'化工',
+'乙二醇':'化工',
+'短纤':'化工',
+'PVC':'化工',
+'苯乙烯':'化工',
+'玻璃':'化工',
+'纯碱':'化工',
+'LPG':'化工',
+'聚丙烯':'化工',
+'天然橡胶':'化工',
+'甲醇':'化工',
+'塑料':'化工',
+'PP':'化工',
+'尿素':'化工',
+'沥青':'化工',
+'纸浆':'化工',
+'橡胶':'化工',
+'玉米':'农业',
+'淀粉':'农业',
+'豆粕':'农业',
+'豆油':'农业',
+'棕榈油':'农业',
+'菜粕':'农业',
+'菜油':'农业',
+'白糖':'农业',
+'苹果':'农业',
+'生猪':'农业',
+'红枣':'农业',
+'棉花':'农业',
+'黄玉米':'农业',
+'菜籽粕':'农业',
+'菜籽油':'农业',
+'花生':'农业',
+'白砂糖':'农业',
+'鸡蛋':'农业',
+'玉米淀粉':'农业',
+'黄金':'有色',
+'阴极铜':"有色",
+ '白银':'有色',
+    '锡':'有色'}
 
 
 '''连接数据库'''
@@ -34,7 +89,7 @@ def main(_end_date,_last_week):
     # 数据准备
     start_date = _last_week
     end_date = _end_date
-    df = pd.read_excel("../配置/配置.xlsx",sheet_name="现货价格")
+    df = pd.read_excel("../配置/配置.xlsx",sheet_name="期货价格")
     save_dir = os.getcwd() + '/' + end_date + '/热力图/'
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
@@ -47,7 +102,8 @@ def main(_end_date,_last_week):
         tuple_x = df.iloc[i,:] #取第一行的数据 以tuple的形式
         tmp = tuple_x['f_name']#期货物品
         table_name = str(tuple_x['db_table']) #获取查询的表格名字
-        tmp_cate = category_teams[table_name] #期货种类
+        #tmp_cate = category_teams[table_name] #期货种类
+        tmp_cate = maps[tmp]
         data_name = str(tuple_x['data_name'])#查询的dataname
 
         str_start = ''' select F_VALUE from ''' + table_name + ''' where F_DATANAME =''' + """'""" + data_name + """'""" + ''' and F_DATE=''' + """'""" + start_date + """'"""
@@ -56,15 +112,15 @@ def main(_end_date,_last_week):
         try:
             cursor.execute(str_start)
             tmp_list = cursor.fetchall()
-            start_val = float(tmp_list[0][0])
+            start_val = float(tmp_list[0][0])#上一周的数据
             cursor.execute(str_end)
             tmp_list = cursor.fetchall()
-            end_val = float(tmp_list[0][0])
+            end_val = float(tmp_list[0][0])#这一周的数据
         except:
             print("未搜索到"+tmp+"在"+str(start_date))
             print("未搜索到" + tmp + "在" + str(end_date))
         try:
-            percent = (start_val - end_val) / end_val * 100
+            percent = (end_val - start_val) / start_val * 100
             new_tuple = (tmp, tmp_cate, percent)#产品，种类，百分比
             cate_percent.append(new_tuple)
             print(start_val , end_val,tmp, tmp_cate, percent)
@@ -134,7 +190,7 @@ def main(_end_date,_last_week):
 
 
 if __name__ == "__main__":
-    main("20221103","20221027")
+    main("20221110","20221103")
 
 
 

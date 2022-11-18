@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+　　<head> <!--HTML文件头标记，用来包含文件的基本信息,内容不会再浏览器中显示-->
+　　<!--头部内容-->
+    <meta charset="'utf-8">
+    <title>Title</title>
+　　</head>
+　　<body><!--网页真正显示的内容都在body标签中-->
+　　<!--网页内容--><h1>用户列表</h1>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>姓名</th>
+            <th>密码</th>
+            <th>手机号</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <th>cz</th>
+            <th>139821</th>
+            <th>113</th>
+        </tr>
+        <tr>
+            <th>2</th>
+            <th>sz</th>
+            <th>s1</th>
+            <th>1234</th>
+        </tr>
+
+        </thead>
+
+        <tbody>
+        {% for item in data_list %}
+            <tr>
+                <td>
+                    {{ item.x }}
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+　　</body>
+</html>

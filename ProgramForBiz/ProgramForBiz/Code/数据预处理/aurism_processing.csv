@@ -1,0 +1,670 @@
+A1_Score,A2_Score,A3_Score,A4_Score,A5_Score,A6_Score,A7_Score,A8_Score,A9_Score,A10_Score,age,gender,ethnicity,jundice,austim,contry_of_res,used_app_before,result,age_desc,relation,Class.ASD
+0,0,1,0,0,0,0,0,0,0,>27,m,White-European,no,no,Oceania,no,1,18 and more,Self,NO
+0,1,1,0,1,0,0,1,1,1,>27,m,Middle Eastern ,no,no,Asia,no,6,18 and more,Self,NO
+1,0,1,1,1,1,0,0,1,0,>27,f,White-European,no,no,Oceania,no,6,18 and more,Self,NO
+1,0,0,1,1,1,1,0,1,1,>27,f,White-European,no,no,Oceania,no,7,18 and more,Self,YES
+1,0,1,1,0,1,1,1,1,1,>27,f,White-European,no,yes,North America,no,8,18 and more,Self,YES
+1,0,1,1,1,0,1,1,0,1,≤27,f,Others,yes,no,Europea,no,7,18 and more,Self,YES
+0,0,0,0,1,1,0,0,0,0,>27,f,Asian,no,no,Asia,no,2,18 and more,Self,NO
+0,0,1,1,0,0,0,0,0,1,>27,f,Middle Eastern ,no,yes,Africa,no,3,18 and more,Self,NO
+0,1,1,1,0,0,0,0,0,1,>27,f,White-European,yes,yes,North America,no,4,18 and more,Self,NO
+1,1,1,1,1,1,0,1,0,1,≤27,f,White-European,no,no,Oceania,no,8,18 and more,Self,YES
+1,0,1,1,1,1,0,1,1,0,>27,f,White-European,no,no,Oceania,no,7,18 and more,Other,YES
+1,1,1,1,0,1,0,0,0,0,≤27,f,Others,no,no,Oceania,no,5,18 and more,Other,NO
+0,0,1,1,1,0,1,0,0,0,≤27,m,Others,no,no,Oceania,no,4,18 and more,Other,NO
+0,1,1,0,0,1,0,0,0,0,>27,m,White-European,no,no,Oceania,no,3,18 and more,Other,NO
+1,1,0,0,0,1,1,1,0,1,>27,f,Asian,no,no,Asia,no,6,18 and more,Self,NO
+1,0,0,1,0,0,0,1,0,0,≤27,f,Others,no,no,South America,no,3,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,f,Black,no,no,Europea,no,10,18 and more,Other,YES
+1,0,0,0,0,0,0,0,0,0,≤27,f,Others,no,no,Oceania,no,1,18 and more,Self,NO
+1,0,1,1,1,1,1,1,0,1,≤27,m,Others,no,yes,Europea,no,8,18 and more,Self,YES
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,no,no,North America,no,10,18 and more,Self,YES
+1,1,1,1,1,1,0,1,1,1,>27,f,Asian,no,no,Asia,no,9,18 and more,Self,YES
+1,0,1,1,1,1,0,1,1,1,>27,f,White-European,no,no,Oceania,no,8,18 and more,Self,YES
+1,1,1,1,1,1,0,1,1,1,>27,f,White-European,no,no,Oceania,no,9,18 and more,Self,YES
+1,0,0,0,1,0,0,1,0,0,>27,f,South Asian,no,yes,North America,no,3,18 and more,Self,NO
+1,1,1,1,0,0,0,1,0,0,>27,f,White-European,no,no,Oceania,no,5,18 and more,Self,NO
+1,0,1,1,1,1,1,1,0,1,≤27,f,Others,no,no,North America,no,8,18 and more,Self,YES
+1,0,1,1,0,1,1,1,0,1,≤27,f,Others,no,no,North America,yes,7,18 and more,Self,YES
+0,0,0,0,0,0,0,0,0,0,>27,m,Others,no,no,Asia,no,0,18 and more,Self,NO
+1,0,0,1,1,0,0,1,1,0,≤27,m,White-European,no,no,Oceania,no,5,18 and more,Other,NO
+1,1,1,1,1,1,1,1,0,1,>27,f,White-European,no,no,Oceania,no,9,18 and more,Self,YES
+1,0,1,0,0,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,North America,no,3,18 and more,Self,NO
+0,1,0,0,0,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Europea,no,2,18 and more,Other,NO
+1,0,1,0,1,1,1,1,0,0,≤27,m,Others,no,no,North America,no,6,18 and more,Self,NO
+1,0,0,0,1,0,1,0,0,1,>27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,1,0,0,0,0,0,>27,m,Black,no,no,Oceania,no,1,18 and more,Self,NO
+1,1,0,0,0,0,1,1,0,1,>27,f,South Asian,no,no,Oceania,no,5,18 and more,Self,NO
+0,0,1,1,0,0,0,1,0,0,>27,m,Asian,no,no,Oceania,no,3,18 and more,Self,NO
+1,0,1,1,0,0,1,1,0,1,≤27,m,Others,no,no,North America,no,6,18 and more,Self,NO
+1,1,1,0,0,0,0,1,1,1,≤27,m,Others,no,no,North America,no,6,18 and more,Self,NO
+0,0,1,1,1,0,0,1,1,1,>27,f,White-European,no,yes,North America,no,6,18 and more,Self,NO
+1,1,0,1,1,1,1,1,0,0,≤27,m,Others,no,no,North America,no,7,18 and more,Self,YES
+1,0,0,0,0,0,1,1,0,0,≤27,m,Middle Eastern ,no,no,North America,no,3,18 and more,Self,NO
+1,1,0,1,1,1,1,1,1,0,>27,f,Black,no,yes,North America,no,8,18 and more,Self,YES
+1,0,0,1,1,0,0,0,0,1,≤27,m,Middle Eastern ,no,no,North America,no,4,18 and more,Self,NO
+1,1,0,0,0,0,0,0,0,0,>27,f,Others,yes,no,Asia,no,2,18 and more,Self,NO
+0,0,1,1,0,0,1,1,0,1,>27,m,Others,yes,yes,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,0,1,0,0,1,>27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,f,White-European,no,yes,Europea,no,10,18 and more,Self,YES
+0,0,1,0,1,0,0,1,0,1,>27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,1,0,0,0,0,0,0,0,0,≤27,f,White-European,no,no,Oceania,no,2,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,1,≤27,f,Middle Eastern ,no,no,North America,no,3,18 and more,Self,NO
+1,0,0,1,1,1,1,1,1,1,>27,f,Middle Eastern ,no,yes,Asia,no,8,18 and more,Other,YES
+1,0,0,0,0,0,0,0,0,0,>27,m,White-European,no,no,Europea,no,1,18 and more,Self,NO
+1,0,0,0,0,0,0,1,1,1,>27,f,White-European,no,yes,Europea,no,4,18 and more,Self,NO
+1,1,1,1,1,1,0,1,1,1,>27,f,White-European,no,no,Oceania,no,9,18 and more,Self,YES
+1,0,1,1,0,0,0,0,0,1,≤27,f,White-European,no,yes,Europea,no,4,18 and more,Self,NO
+0,1,0,0,1,0,1,0,0,1,>27,f,Others,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,1,1,1,0,1,0,1,≤27,f,Others,no,no,Oceania,no,5,18 and more,Self,NO
+1,1,1,0,1,1,1,0,1,1,≤27,f,Others,no,yes,Europea,no,8,18 and more,Self,YES
+1,1,1,1,1,0,0,1,1,1,>27,f,White-European,no,yes,Europea,no,8,18 and more,Self,YES
+1,1,0,0,0,0,0,1,0,1,>27,f,White-European,no,no,Europea,no,4,18 and more,Self,NO
+1,0,0,0,1,0,1,1,0,0,>27,f,White-European,no,no,Oceania,no,4,18 and more,Self,NO
+1,0,0,1,1,0,1,0,0,0,≤27,m,Others,no,no,Oceania,no,4,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,0,≤27,f,Others,no,no,Oceania,no,3,18 and more,Self,NO
+0,0,0,0,0,0,0,0,1,0,≤27,m,Others,no,no,Asia,no,1,18 and more,Self,NO
+0,1,1,0,0,0,0,1,0,0,≤27,f,South Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,0,>27,f,Asian,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,0,0,0,0,1,1,≤27,m,Asian,no,no,Oceania,no,3,18 and more,Self,NO
+1,1,0,0,1,0,1,1,0,0,≤27,m,Asian,no,no,Asia,no,5,18 and more,Self,NO
+0,0,0,0,1,1,0,1,0,1,≤27,m,South Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,0,≤27,m,Asian,no,no,Asia,no,0,18 and more,Self,NO
+0,0,1,0,1,1,1,1,0,1,≤27,m,South Asian,no,no,Oceania,no,6,18 and more,Self,NO
+1,1,0,1,1,0,1,1,0,1,>27,f,White-European,no,no,North America,no,7,18 and more,Self,YES
+1,0,0,1,1,1,1,0,0,0,≤27,f,Asian,no,no,Asia,no,5,18 and more,Other,NO
+1,0,0,0,0,1,1,0,0,0,≤27,f,Asian,no,no,Asia,no,3,18 and more,Other,NO
+1,0,1,1,1,1,1,1,1,1,≤27,f,White-European,no,yes,Oceania,no,9,18 and more,Self,YES
+0,0,1,1,0,1,0,1,1,1,≤27,m,White-European,no,no,Europea,no,6,18 and more,Self,NO
+1,0,0,0,1,0,0,0,0,1,>27,m,Asian,no,no,Asia,no,3,18 and more,Other,NO
+0,1,0,0,0,0,0,1,1,1,≤27,m,Asian,no,no,Oceania,no,4,18 and more,Self,NO
+1,1,0,1,1,1,1,1,0,1,>27,f,Middle Eastern ,no,no,Asia,no,8,18 and more,Self,YES
+1,0,1,1,1,1,0,1,1,0,>27,f,White-European,no,no,Europea,no,7,18 and more,Other,YES
+1,1,1,1,1,1,0,1,0,1,≤27,f,White-European,no,no,North America,no,8,18 and more,Self,YES
+1,1,1,0,1,0,1,1,0,0,≤27,m,White-European,no,no,North America,no,6,18 and more,Self,NO
+1,1,1,1,1,1,0,1,1,1,≤27,f,White-European,no,no,North America,no,9,18 and more,Self,YES
+1,1,1,1,1,1,0,0,1,0,>27,m,White-European,no,no,North America,no,7,18 and more,Self,YES
+1,1,1,1,1,1,0,1,1,1,≤27,m,White-European,no,no,Europea,no,9,18 and more,Self,YES
+1,0,1,1,1,1,1,1,1,1,≤27,f,White-European,no,no,North America,no,9,18 and more,Self,YES
+1,0,0,0,0,0,0,0,0,0,≤27,f,Black,no,no,Europea,no,1,18 and more,Self,NO
+1,0,0,1,1,1,1,1,0,1,>27,m,Asian,yes,no,Africa,no,7,18 and more,Self,YES
+1,0,1,1,1,1,1,1,1,1,>27,f,White-European,no,yes,Oceania,no,9,18 and more,Self,YES
+1,1,0,0,1,1,1,1,0,1,≤27,f,White-European,no,no,Oceania,no,7,18 and more,Self,YES
+0,0,0,0,0,0,0,0,0,0,≤27,f,White-European,no,no,Oceania,no,0,18 and more,Self,NO
+1,0,0,1,1,1,0,1,0,1,>27,m,Middle Eastern ,no,yes,North America,no,6,18 and more,Self,NO
+1,0,1,1,0,0,1,0,0,1,>27,f,White-European,no,no,Europea,no,5,18 and more,Self,NO
+1,0,0,0,1,0,0,0,1,1,>27,f,White-European,no,yes,Europea,no,4,18 and more,Other,NO
+1,1,0,0,0,0,0,1,0,0,≤27,f,White-European,no,no,North America,no,3,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,1,≤27,m,Black,no,no,Africa,no,3,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,0,≤27,m,South Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,1,0,0,0,1,0,1,≤27,m,Asian,no,no,Asia,no,5,18 and more,Self,NO
+0,1,0,0,1,1,0,1,1,0,≤27,m,Asian,no,no,Oceania,no,5,18 and more,Self,NO
+1,0,1,1,0,0,0,1,1,1,≤27,m,Asian,no,no,Oceania,no,6,18 and more,Self,NO
+0,1,1,0,0,1,0,0,1,1,≤27,m,Asian,no,no,Oceania,no,5,18 and more,Self,NO
+0,0,0,0,1,0,0,0,0,1,≤27,m,Asian,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,0,0,1,0,0,1,≤27,m,Asian,no,no,Oceania,no,3,18 and more,Self,NO
+0,1,0,0,0,0,0,0,0,1,>27,f,Asian,no,no,Oceania,no,2,18 and more,Self,NO
+0,0,1,1,0,0,0,1,0,1,≤27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,0,>27,m,South Asian,no,no,Asia,no,2,18 and more,Self,NO
+1,0,1,0,0,0,0,1,0,0,≤27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,1,1,0,0,1,0,0,≤27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,0,0,0,1,0,0,≤27,m,South Asian,no,no,Oceania,no,1,18 and more,Self,NO
+1,0,0,1,1,1,1,1,1,1,>27,m,White-European,no,no,North America,no,8,18 and more,Other,YES
+1,0,1,1,1,1,1,1,1,1,≤27,m,White-European,no,no,Oceania,no,9,18 and more,Self,YES
+1,1,1,1,1,1,1,1,1,1,≤27,f,White-European,no,no,Europea,no,10,18 and more,Self,YES
+1,1,0,0,1,1,1,1,0,1,>27,f,Others,no,no,North America,no,7,18 and more,Self,YES
+1,1,1,1,1,0,1,1,1,0,>27,m,White-European,yes,yes,North America,no,8,18 and more,Self,YES
+0,0,0,0,1,0,0,1,0,0,≤27,m,Asian,no,no,Oceania,no,2,18 and more,Self,NO
+0,1,1,1,1,0,1,1,0,1,≤27,m,Asian,no,no,Asia,no,7,18 and more,Self,YES
+1,1,0,0,1,0,0,0,0,1,>27,f,South Asian,no,no,Oceania,no,4,18 and more,Self,NO
+0,0,1,0,1,0,1,0,1,1,>27,m,Asian,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,1,0,1,0,0,1,>27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,0,0,1,1,0,1,>27,f,Asian,no,no,Oceania,no,3,18 and more,Self,NO
+1,0,0,0,0,1,0,1,0,1,>27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,0,1,0,0,1,0,1,>27,f,South Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,1,0,0,0,0,1,1,>27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,0,>27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,0,>27,m,Asian,no,no,Asia,no,0,18 and more,Other,NO
+0,1,0,0,0,0,0,1,0,0,>27,f,South Asian,no,no,Asia,no,2,18 and more,Self,NO
+0,0,0,0,0,0,0,1,0,0,>27,f,South Asian,no,no,Oceania,no,1,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,0,≤27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,0,1,0,1,1,0,1,≤27,f,Asian,no,no,Oceania,no,6,18 and more,Self,NO
+1,0,0,0,1,0,1,1,0,1,>27,m,Asian,no,no,Asia,no,5,18 and more,Self,NO
+0,0,1,0,0,0,0,1,1,1,≤27,f,Others,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,1,0,1,1,0,0,≤27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,1,1,1,0,0,1,1,1,>27,f,Others,no,yes,Europea,no,6,18 and more,Self,NO
+1,1,1,1,1,0,0,1,1,1,>27,f,Others,no,yes,Europea,no,8,18 and more,Self,YES
+1,0,1,1,0,0,1,1,0,1,>27,m,Others,no,no,North America,no,6,18 and more,Self,NO
+1,1,0,1,0,0,1,0,0,0,≤27,f,Asian,no,no,Oceania,no,4,18 and more,Self,NO
+0,0,1,1,1,0,0,0,0,1,≤27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,0,>27,f,Middle Eastern ,no,no,Europea,no,2,18 and more,Other,NO
+1,0,0,1,0,0,0,1,0,0,>27,m,White-European,no,no,North America,no,3,18 and more,Self,NO
+1,1,0,0,0,0,1,1,1,1,>27,f,Black,no,no,North America,no,6,18 and more,Self,NO
+1,1,1,1,1,1,0,1,1,1,>27,f,Black,no,no,North America,yes,9,18 and more,Self,YES
+0,0,1,1,1,0,0,1,1,1,>27,m,Middle Eastern ,no,no,Asia,no,6,18 and more,Self,NO
+1,0,1,0,1,0,0,1,0,1,>27,m,Middle Eastern ,no,no,Asia,no,5,18 and more,Self,NO
+1,0,1,0,1,0,1,0,0,0,>27,m,White-European,no,no,Oceania,no,4,18 and more,Self,NO
+1,0,0,0,1,0,1,0,0,1,>27,f,White-European,no,no,Oceania,no,4,18 and more,Self,NO
+1,1,1,1,1,0,0,0,0,0,≤27,f,Asian,no,no,Asia,no,5,18 and more,Self,NO
+0,1,0,1,1,1,0,1,0,1,>27,m,White-European,no,no,North America,no,6,18 and more,Other,NO
+0,0,1,1,1,0,0,0,0,1,>27,m,Asian,no,no,Oceania,no,4,18 and more,Self,NO
+0,0,1,1,1,0,1,0,0,1,≤27,m,White-European,no,no,North America,no,5,18 and more,Self,NO
+1,0,1,1,1,1,1,0,1,0,>27,m,South Asian,no,no,Asia,no,7,18 and more,Self,YES
+1,0,0,0,0,0,1,1,0,1,>27,m,Others,no,yes,Europea,no,4,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,1,>27,f,White-European,no,no,Oceania,no,4,18 and more,Self,NO
+1,1,0,1,1,1,0,1,1,1,>27,f,White-European,no,yes,North America,no,8,18 and more,Self,YES
+1,1,1,0,1,0,1,0,0,0,≤27,m,White-European,no,no,Europea,no,5,18 and more,Self,NO
+1,1,1,1,1,1,0,1,1,1,>27,m,White-European,no,no,Europea,no,9,18 and more,Self,YES
+1,1,0,1,0,0,0,1,0,1,>27,m,Others,yes,yes,South America,no,5,18 and more,Other,NO
+1,0,0,0,0,0,0,1,0,1,>27,m,Others,no,no,North America,no,3,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,0,>27,f,Asian,no,no,Europea,no,2,18 and more,Self,NO
+0,1,0,1,0,0,0,1,0,0,>27,m,White-European,no,yes,Europea,no,3,18 and more,Self,NO
+1,0,1,1,1,1,1,1,1,1,>27,f,White-European,no,no,North America,no,9,18 and more,Self,YES
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,no,no,North America,no,10,18 and more,Self,YES
+1,0,1,1,1,1,1,1,1,1,>27,m,White-European,no,no,Europea,no,9,18 and more,Self,YES
+1,1,1,0,1,1,0,1,1,0,>27,m,White-European,no,no,North America,no,7,18 and more,Self,YES
+1,1,1,1,0,0,0,0,0,0,>27,f,Others,no,yes,North America,no,4,18 and more,Self,NO
+1,1,1,1,1,0,1,1,1,1,≤27,f,White-European,no,no,Oceania,no,9,18 and more,Self,YES
+1,1,0,1,1,0,0,0,1,1,≤27,f,White-European,no,no,North America,no,6,18 and more,Self,NO
+1,1,0,1,1,0,0,1,1,1,≤27,f,White-European,no,no,North America,no,7,18 and more,Self,YES
+1,1,1,1,1,1,1,0,1,1,>27,f,White-European,no,yes,North America,no,9,18 and more,Other,YES
+1,0,1,1,0,0,0,0,0,0,>27,m,White-European,no,yes,North America,no,3,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,no,no,North America,no,10,18 and more,Self,YES
+1,1,1,1,1,1,1,1,1,1,≤27,m,Middle Eastern ,no,yes,North America,no,10,18 and more,Other,YES
+1,1,1,0,1,0,0,1,1,1,≤27,f,White-European,no,no,North America,yes,7,18 and more,Self,YES
+1,1,1,1,0,0,1,1,0,0,>27,m,White-European,no,no,Europea,no,6,18 and more,Self,NO
+1,0,0,1,1,1,1,1,1,1,>27,f,White-European,no,no,North America,no,8,18 and more,Self,YES
+1,0,1,1,1,1,1,1,1,1,>27,f,White-European,no,yes,Europea,no,9,18 and more,Self,YES
+0,0,0,1,0,1,0,1,1,1,>27,m,Asian,no,yes,Asia,no,5,18 and more,Self,NO
+1,1,0,0,0,1,1,1,0,1,>27,f,White-European,no,no,Europea,no,6,18 and more,Self,NO
+1,0,1,1,0,0,0,0,0,1,>27,f,White-European,no,no,North America,no,4,18 and more,Self,NO
+1,1,1,1,0,0,0,0,0,1,>27,m,White-European,no,no,North America,no,5,18 and more,Self,NO
+1,1,0,0,1,1,1,1,1,1,≤27,f,Black,no,no,Europea,no,8,18 and more,Self,YES
+1,0,0,0,0,0,1,1,0,1,>27,f,Others,yes,no,Asia,no,4,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,1,>27,m,White-European,no,yes,North America,no,4,18 and more,Other,NO
+1,1,0,1,1,0,1,1,0,1,≤27,m,White-European,no,no,Asia,no,7,18 and more,Self,YES
+1,0,0,1,0,0,0,0,0,0,>27,f,White-European,no,yes,North America,no,2,18 and more,Other,NO
+1,1,0,0,0,0,0,1,0,0,>27,m,White-European,no,no,Europea,no,3,18 and more,Self,NO
+0,0,1,0,0,0,0,0,0,0,≤27,f,Others,no,no,Asia,no,1,18 and more,Other,NO
+1,1,1,1,1,0,0,1,0,0,≤27,m,White-European,no,no,Europea,no,6,18 and more,Self,NO
+1,0,1,1,0,1,1,1,1,1,≤27,m,White-European,no,no,Europea,no,8,18 and more,Self,YES
+1,1,1,1,1,1,1,0,1,1,≤27,f,White-European,no,no,Europea,no,9,18 and more,Self,YES
+0,1,0,1,0,0,0,1,0,1,>27,f,White-European,no,no,North America,no,4,18 and more,Self,NO
+1,1,1,1,1,1,1,0,1,1,≤27,m,Asian,yes,no,Asia,no,9,18 and more,Other,YES
+0,1,0,0,0,0,0,0,0,0,>27,m,White-European,no,no,North America,no,1,18 and more,Self,NO
+0,0,0,1,1,0,1,1,0,1,≤27,m,Others,no,no,North America,no,5,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,f,Asian,no,no,Oceania,no,10,18 and more,Self,YES
+1,0,0,0,0,0,1,1,0,0,≤27,m,South Asian,no,no,Oceania,no,3,18 and more,Self,NO
+1,0,0,1,0,0,0,0,0,0,≤27,m,White-European,no,no,Europea,no,2,18 and more,Self,NO
+1,1,0,0,1,0,0,0,0,0,≤27,m,White-European,no,no,Oceania,no,3,18 and more,Self,NO
+0,1,0,0,0,0,0,1,1,1,≤27,m,White-European,no,no,Oceania,no,4,18 and more,Self,NO
+0,1,1,0,0,0,0,0,0,0,≤27,m,Black,no,no,Oceania,no,2,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,0,≤27,m,South Asian,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,1,1,1,1,0,1,≤27,m,Asian,no,no,Oceania,no,6,18 and more,Self,NO
+1,0,0,0,0,0,0,0,0,1,≤27,m,South Asian,no,no,Oceania,no,2,18 and more,Self,NO
+0,1,0,0,0,0,0,1,1,0,≤27,m,Others,no,no,Europea,no,3,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,0,≤27,m,Others,no,no,Oceania,no,2,18 and more,Self,NO
+1,0,0,1,1,0,1,1,0,0,≤27,m,Asian,no,no,Oceania,no,5,18 and more,Self,NO
+1,0,0,0,1,0,1,1,1,1,≤27,m,Others,no,no,Oceania,no,6,18 and more,Self,NO
+1,0,0,0,1,0,0,1,0,1,≤27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,1,0,1,1,0,0,1,1,>27,m,Others,no,no,Oceania,no,5,18 and more,Self,NO
+1,0,1,0,1,0,1,1,0,1,>27,m,Asian,no,no,Oceania,no,6,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,1,>27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,1,1,0,1,1,0,0,≤27,m,Others,no,no,Oceania,no,5,18 and more,Self,NO
+0,0,1,1,0,1,0,1,1,1,≤27,m,White-European,no,no,Oceania,no,6,18 and more,Self,NO
+0,0,0,0,0,0,0,1,0,1,≤27,m,Asian,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,1,1,1,1,1,1,1,≤27,m,South Asian,no,no,Oceania,no,8,18 and more,Self,YES
+1,0,0,0,0,0,1,1,0,0,>27,m,Asian,no,no,Oceania,no,3,18 and more,Self,NO
+1,0,0,1,0,0,1,1,0,0,≤27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,1,0,0,0,1,0,0,>27,m,Asian,no,no,Asia,no,2,18 and more,Self,NO
+0,0,0,1,0,0,1,0,0,0,≤27,m,South Asian,no,no,Asia,no,2,18 and more,Self,NO
+1,0,1,0,0,0,1,0,0,0,>27,m,White-European,no,no,Oceania,no,3,18 and more,Self,NO
+1,1,0,0,1,0,0,1,0,0,>27,m,Others,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,0,1,0,1,1,1,≤27,m,South Asian,no,no,Asia,no,5,18 and more,Self,NO
+0,1,1,0,1,0,0,1,0,0,≤27,m,Others,no,no,Oceania,no,4,18 and more,Self,NO
+1,0,0,0,1,1,0,1,0,1,≤27,m,Asian,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,0,1,1,1,1,≤27,m,Asian,no,no,Asia,no,5,18 and more,Self,NO
+0,0,0,0,0,0,1,1,0,1,≤27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,0,1,0,0,1,0,1,≤27,f,South Asian,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,0,≤27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,0,≤27,m,Others,no,no,Oceania,no,0,18 and more,Self,NO
+1,0,0,0,1,0,0,1,1,0,≤27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,1,1,0,1,0,1,1,0,1,>27,m,Asian,no,no,Oceania,no,7,18 and more,Self,YES
+1,0,0,1,0,0,0,0,1,0,≤27,m,Asian,no,no,Europea,no,3,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,1,≤27,m,Others,no,no,Oceania,no,3,18 and more,Self,NO
+1,0,1,1,1,0,0,1,0,0,>27,f,White-European,no,no,North America,no,5,18 and more,Self,NO
+1,0,0,1,1,0,1,1,0,1,≤27,f,Asian,no,no,Oceania,no,6,18 and more,Self,NO
+1,0,1,1,1,1,0,0,1,1,≤27,f,Others,no,yes,Europea,no,7,18 and more,Self,YES
+1,1,1,1,0,0,0,1,1,1,>27,f,Black,no,yes,Europea,no,7,18 and more,Other,YES
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,no,no,Europea,no,10,18 and more,Self,YES
+1,1,0,0,0,0,0,0,0,0,≤27,m,White-European,no,no,Europea,no,2,18 and more,Other,NO
+1,1,1,0,0,0,0,1,0,0,>27,f,White-European,no,yes,North America,no,4,18 and more,Self,NO
+0,1,1,1,0,0,0,0,1,0,≤27,m,Asian,no,no,Asia,no,4,18 and more,Other,NO
+1,0,0,0,1,0,0,0,1,0,>27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,1,0,0,0,0,0,0,0,0,>27,f,Others,no,yes,Asia,no,2,18 and more,Other,NO
+1,0,1,1,1,1,1,1,1,1,>27,f,White-European,no,no,Europea,no,9,18 and more,Self,YES
+0,1,1,0,1,0,0,0,0,0,≤27,m,Others,yes,no,North America,no,3,18 and more,Self,NO
+1,0,0,0,0,0,0,0,0,0,>27,f,Others,no,yes,North America,no,1,18 and more,Self,NO
+1,1,1,1,1,0,0,1,1,1,>27,m,White-European,no,no,Oceania,no,8,18 and more,Self,YES
+0,1,1,0,1,1,1,0,1,1,>27,f,Black,no,no,Europea,no,7,18 and more,Other,YES
+1,1,1,1,1,1,1,1,1,1,>27,f,White-European,no,no,North America,no,10,18 and more,Self,YES
+0,1,0,0,0,0,1,0,0,1,>27,f,White-European,yes,no,Europea,no,3,18 and more,Self,NO
+0,0,0,1,1,1,1,0,1,1,>27,f,Others,no,no,Asia,no,6,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,0,>27,m,White-European,no,no,Oceania,no,0,18 and more,Self,NO
+1,0,0,1,1,0,0,1,0,1,>27,m,White-European,no,no,North America,no,5,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,0,>27,f,White-European,no,no,Oceania,no,0,18 and more,Self,NO
+1,1,1,0,1,1,1,0,1,1,>27,m,White-European,yes,no,Europea,no,8,18 and more,Self,YES
+1,1,1,0,1,1,1,0,1,1,≤27,f,White-European,no,no,Europea,no,8,18 and more,Self,YES
+1,1,0,1,1,0,0,1,1,1,>27,f,Black,no,no,North America,no,7,18 and more,Self,YES
+0,1,1,1,0,0,0,1,0,1,≤27,m,White-European,no,yes,Europea,no,5,18 and more,Self,NO
+1,0,0,0,1,0,1,0,0,1,>27,f,White-European,no,yes,Europea,no,4,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,0,>27,f,Middle Eastern ,no,no,Asia,no,0,18 and more,Other,NO
+1,0,1,1,1,1,0,0,1,1,>27,f,White-European,no,no,North America,no,7,18 and more,Self,YES
+1,1,1,1,1,1,0,0,1,1,≤27,f,White-European,yes,no,Europea,no,8,18 and more,Other,YES
+1,1,1,1,0,1,0,1,1,1,>27,m,White-European,no,yes,North America,no,8,18 and more,Other,YES
+1,0,0,1,0,0,1,1,0,1,≤27,f,White-European,yes,no,Oceania,no,5,18 and more,Self,NO
+1,1,1,1,1,1,1,0,1,1,≤27,f,White-European,yes,no,Europea,no,9,18 and more,Self,YES
+1,0,0,1,0,0,0,1,0,0,>27,m,White-European,no,no,Europea,no,3,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,f,White-European,yes,no,Europea,no,10,18 and more,Self,YES
+0,0,1,1,1,1,1,1,0,0,>27,f,White-European,no,no,Europea,no,6,18 and more,Self,NO
+0,0,0,0,0,0,0,1,1,0,>27,f,Others,no,no,Europea,no,2,18 and more,Self,NO
+1,1,1,1,1,0,0,0,1,0,>27,m,Asian,no,no,Asia,no,6,18 and more,Self,NO
+1,1,0,1,0,0,0,0,0,1,>27,f,White-European,no,no,Europea,no,4,18 and more,Self,NO
+1,0,0,1,1,0,1,1,1,1,>27,f,Others,no,no,Asia,no,7,18 and more,Self,YES
+1,0,0,1,1,1,1,1,1,1,≤27,f,White-European,no,no,Europea,no,8,18 and more,Self,YES
+1,1,1,1,1,1,0,0,1,1,≤27,f,Others,no,no,North America,no,8,18 and more,Self,YES
+1,1,1,1,1,1,0,1,0,0,>27,f,Middle Eastern ,no,no,Europea,no,7,18 and more,Self,YES
+1,0,1,0,0,0,0,0,0,0,>27,f,White-European,no,no,North America,no,2,18 and more,Self,NO
+0,0,1,1,1,0,0,1,0,0,>27,m,White-European,yes,no,North America,no,4,18 and more,Self,NO
+1,0,1,0,1,1,1,1,1,0,≤27,m,Others,no,no,North America,no,7,18 and more,Self,YES
+1,0,1,1,1,1,0,1,1,0,≤27,m,Others,no,no,North America,yes,7,18 and more,Self,YES
+1,0,0,1,1,0,0,1,0,1,≤27,f,White-European,no,no,Oceania,no,5,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,0,≤27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+0,1,0,0,0,0,1,1,0,1,≤27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,1,1,0,0,1,1,0,≤27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,1,1,0,1,0,0,1,0,1,≤27,m,Others,no,no,Asia,no,6,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,0,18 and more,Self,NO
+1,1,0,0,0,0,0,0,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,2,18 and more,Self,NO
+0,1,1,0,0,0,0,1,0,1,≤27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,1,1,0,1,1,1,1,0,1,≤27,m,Middle Eastern ,no,no,Asia,no,8,18 and more,Self,YES
+1,1,0,1,1,0,0,0,0,0,≤27,f,South Asian,no,yes,Asia,no,4,18 and more,Self,NO
+1,0,0,0,0,0,0,0,0,1,>27,f,Others,no,no,Asia,no,2,18 and more,Self,NO
+1,1,1,0,1,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,5,18 and more,Other,NO
+1,1,1,0,1,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,5,18 and more,Other,NO
+0,0,0,0,1,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,2,18 and more,Other,NO
+1,1,1,0,0,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Other,NO
+0,1,0,0,0,0,1,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,3,18 and more,Other,NO
+1,1,1,0,0,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Other,NO
+1,1,1,1,1,1,1,1,1,1,≤27,m,White-European,no,no,Europea,no,10,18 and more,Self,YES
+1,0,0,1,1,1,1,0,1,1,>27,m,White-European,no,no,Europea,no,7,18 and more,Self,YES
+1,0,0,0,0,1,1,0,1,1,>27,f,Asian,no,no,North America,no,5,18 and more,Other,NO
+1,1,0,1,0,0,1,1,0,0,>27,m,White-European,yes,no,Europea,no,5,18 and more,Self,NO
+1,1,1,1,0,0,1,1,0,0,>27,m,White-European,no,no,Europea,no,6,18 and more,Self,NO
+1,0,0,1,1,1,0,0,0,0,>27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,1,0,0,0,0,0,0,0,1,≤27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,0,0,0,1,1,0,0,≤27,f,Others,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,0,0,1,0,0,0,≤27,f,Others,no,no,Asia,no,2,18 and more,Self,NO
+1,0,1,1,0,0,1,1,1,0,≤27,f,Others,no,no,Asia,no,6,18 and more,Self,NO
+1,1,1,1,1,0,0,1,0,0,≤27,m,Others,no,no,Asia,no,6,18 and more,Self,NO
+1,0,1,1,0,0,0,0,0,0,≤27,f,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,1,0,0,0,0,0,0,≤27,m,Others,no,no,Asia,no,2,18 and more,Self,NO
+0,1,0,1,0,1,0,1,0,1,≤27,f,Others,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,0,0,0,0,0,≤27,m,Others,no,no,Asia,no,1,18 and more,Self,NO
+1,0,0,0,1,0,1,1,1,0,≤27,m,Others,no,no,Asia,no,5,18 and more,Self,NO
+0,0,0,0,0,0,0,1,0,0,≤27,m,Others,no,no,Asia,no,1,18 and more,Self,NO
+1,0,1,1,0,1,1,1,1,1,≤27,f,Others,no,no,Asia,no,8,18 and more,Self,YES
+1,1,1,0,0,0,0,1,0,1,≤27,f,Others,no,no,Asia,no,5,18 and more,Self,NO
+1,1,1,0,1,0,1,1,1,1,≤27,m,Others,no,no,South America,no,8,18 and more,Other,YES
+1,1,0,0,0,0,1,1,0,0,≤27,m,Others,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,0,0,0,0,1,0,0,≤27,m,Others,no,no,Asia,no,2,18 and more,Self,NO
+1,0,1,0,0,0,1,0,0,0,≤27,m,Others,no,yes,Asia,no,3,18 and more,Self,NO
+0,0,0,1,0,0,0,1,0,0,≤27,m,Others,no,no,Asia,no,2,18 and more,Self,NO
+0,0,0,0,1,0,0,1,0,0,≤27,m,Others,no,no,Asia,no,2,18 and more,Other,NO
+1,0,0,1,0,0,0,1,0,1,≤27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Other,NO
+1,0,0,0,0,0,0,1,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,1,0,0,1,0,0,1,≤27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+0,0,1,0,0,0,0,0,0,1,≤27,m,Middle Eastern ,no,no,Asia,no,2,18 and more,Self,NO
+1,0,1,0,1,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,0,1,0,1,0,0,≤27,f,Others,no,no,Europea,no,2,18 and more,Self,NO
+0,0,0,0,1,0,0,1,0,1,≤27,m,Middle Eastern ,no,no,Asia,no,3,18 and more,Other,NO
+0,1,0,1,0,0,0,0,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,2,18 and more,Self,NO
+0,1,1,0,0,0,0,1,0,1,≤27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,0,1,0,1,0,1,≤27,m,Others,no,no,Asia,no,4,18 and more,Self,NO
+1,0,1,0,1,0,0,1,0,1,≤27,m,Middle Eastern ,no,yes,Asia,no,5,18 and more,Self,NO
+0,0,1,1,0,0,1,0,0,1,≤27,m,Others,no,no,Europea,no,4,18 and more,Self,NO
+1,0,1,0,1,0,0,1,0,1,≤27,m,Middle Eastern ,no,no,Asia,no,5,18 and more,Self,NO
+0,0,0,0,0,0,0,1,1,0,≤27,m,Others,yes,no,Asia,no,2,18 and more,Self,NO
+1,0,1,0,0,0,0,0,0,1,≤27,f,Others,no,no,Asia,no,3,18 and more,Other,NO
+1,0,0,1,1,0,0,1,0,1,≤27,f,Asian,no,no,Asia,no,5,18 and more,Self,NO
+0,1,0,0,0,0,0,0,0,1,≤27,m,Others,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,1,≤27,f,Middle Eastern ,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,1,1,0,1,0,0,1,≤27,m,Middle Eastern ,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,1,0,0,1,0,≤27,m,Middle Eastern ,yes,yes,Asia,yes,3,18 and more,Other,NO
+1,0,0,0,0,0,0,1,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,0,1,1,1,0,1,≤27,m,Middle Eastern ,no,no,Oceania,no,5,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,0,≤27,f,Others,no,no,Asia,no,2,18 and more,Self,NO
+0,1,0,0,1,1,0,0,0,0,≤27,m,Others,no,no,Asia,no,3,18 and more,Other,NO
+0,0,0,1,0,0,1,0,0,0,≤27,f,Others,no,no,Asia,no,2,18 and more,Other,NO
+1,0,0,0,0,0,0,1,0,0,≤27,f,Others,no,no,Asia,no,2,18 and more,Self,NO
+1,1,1,1,1,0,1,0,1,1,≤27,f,Others,no,no,Asia,no,8,18 and more,Self,YES
+1,0,0,0,0,0,1,1,0,1,≤27,m,Others,no,no,Asia,no,4,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,0,≤27,f,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,0,0,0,0,0,0,1,≤27,f,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,1,0,0,0,0,0,0,≤27,f,Others,no,no,Asia,no,2,18 and more,Other,NO
+1,0,1,1,1,0,1,1,0,0,≤27,f,Others,yes,no,Asia,no,6,18 and more,Self,NO
+1,1,0,0,1,0,0,1,0,0,≤27,f,Others,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,0,0,0,0,1,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,1,0,0,1,0,0,≤27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,1,1,0,0,0,1,1,≤27,m,Middle Eastern ,no,no,Asia,no,6,18 and more,Self,NO
+0,1,0,0,0,1,0,1,0,1,≤27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,0,≤27,f,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,0,1,1,0,1,0,1,≤27,f,Black,no,no,Asia,no,5,18 and more,Self,NO
+0,1,1,1,0,1,0,1,0,0,≤27,f,Others,no,no,Asia,no,5,18 and more,Other,NO
+1,1,1,0,1,0,0,0,0,0,≤27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,0,0,0,0,1,0,1,≤27,f,Others,no,no,Asia,no,3,18 and more,Self,NO
+0,1,1,0,0,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,0,0,0,0,0,0,0,≤27,f,Others,no,no,Asia,no,1,18 and more,Other,NO
+1,0,0,1,0,0,1,1,0,1,≤27,f,Others,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,1,≤27,f,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,1,0,0,1,0,0,1,≤27,f,Black,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,1,0,0,1,0,0,1,>27,f,Others,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,1,1,0,0,0,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,3,18 and more,Self,NO
+0,1,0,0,1,0,1,1,0,1,≤27,f,Black,no,no,Asia,no,5,18 and more,Self,NO
+1,0,1,1,1,1,1,1,1,0,≤27,m,Asian,no,no,Asia,no,8,18 and more,Self,YES
+1,0,0,1,1,0,0,1,0,1,≤27,f,South Asian,no,no,Asia,no,5,18 and more,Self,NO
+1,1,0,0,0,0,0,0,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,2,18 and more,Self,NO
+1,1,0,1,0,0,0,0,0,1,≤27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,1,0,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,3,18 and more,Self,NO
+0,0,1,1,1,0,0,1,0,0,≤27,f,Others,no,no,Asia,no,4,18 and more,Self,NO
+0,0,1,1,1,0,0,0,0,1,≤27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,0,1,1,1,0,1,1,0,1,≤27,f,Middle Eastern ,no,no,Asia,no,7,18 and more,Self,YES
+1,0,1,0,0,0,0,0,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,1,>27,m,Middle Eastern ,yes,no,Asia,no,4,18 and more,Self,NO
+1,1,0,1,0,0,1,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,0,1,0,1,1,≤27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,1,0,1,0,0,1,≤27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,0,1,0,1,0,1,1,0,1,≤27,f,Middle Eastern ,no,no,Asia,no,6,18 and more,Self,NO
+0,0,0,0,0,0,1,0,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,1,18 and more,Self,NO
+1,0,1,0,0,1,0,1,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,1,0,0,0,0,0,0,>27,f,Others,no,no,Asia,no,2,18 and more,Self,NO
+1,1,1,1,0,0,1,0,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,1,≤27,m,Others,no,no,Asia,no,4,18 and more,Other,NO
+1,0,1,1,1,1,0,1,1,1,≤27,m,Asian,no,yes,Asia,no,8,18 and more,Self,YES
+1,0,0,1,0,0,1,1,0,0,≤27,m,Others,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,1,0,1,0,0,0,≤27,f,Others,no,no,Europea,yes,2,18 and more,Self,NO
+1,0,1,0,1,0,1,1,1,0,≤27,m,Others,no,no,Asia,no,6,18 and more,Self,NO
+1,1,1,1,1,1,1,0,1,1,>27,f,Black,no,no,Europea,no,9,18 and more,Other,YES
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,yes,yes,South America,no,10,18 and more,Self,YES
+1,0,0,1,1,0,0,0,0,0,≤27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,1,1,1,1,1,0,1,1,0,>27,f,White-European,no,no,Europea,no,8,18 and more,Self,YES
+1,0,0,0,0,1,0,0,0,1,>27,f,White-European,no,no,Europea,yes,3,18 and more,Self,NO
+0,0,1,1,0,0,0,0,0,0,≤27,f,Middle Eastern ,no,no,Asia,yes,2,18 and more,Self,NO
+1,1,1,1,0,0,0,0,0,1,≤27,f,White-European,no,no,Europea,no,5,18 and more,Self,NO
+1,1,0,0,1,1,0,1,0,1,>27,f,Others,no,no,Asia,no,6,18 and more,Other,NO
+1,1,0,0,0,0,0,1,0,1,≤27,f,Others,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,0,0,0,0,1,0,0,≤27,m,White-European,no,no,North America,no,2,18 and more,Self,NO
+1,0,1,1,1,0,1,0,0,1,≤27,m,Black,no,no,North America,no,6,18 and more,Other,NO
+1,0,1,0,0,0,0,0,0,0,≤27,m,White-European,no,no,Europea,no,2,18 and more,Self,NO
+0,1,1,1,1,0,1,0,0,1,>27,m,White-European,no,yes,Oceania,no,6,18 and more,Other,NO
+1,1,1,1,1,0,0,1,0,1,≤27,f,Asian,no,no,Asia,no,7,18 and more,Self,YES
+0,1,1,1,1,1,0,1,0,1,>27,f,White-European,no,yes,Europea,no,7,18 and more,Self,YES
+1,0,0,0,0,0,0,1,0,1,≤27,m,White-European,no,yes,Oceania,no,3,18 and more,Self,NO
+1,0,0,1,1,0,1,1,1,1,≤27,f,White-European,no,no,Europea,no,7,18 and more,Self,YES
+1,0,0,0,0,0,0,1,0,0,>27,m,White-European,no,no,Europea,no,2,18 and more,Other,NO
+1,1,1,1,1,1,1,0,1,1,>27,m,White-European,no,no,North America,no,9,18 and more,Self,YES
+1,1,1,0,0,0,0,1,0,1,≤27,f,White-European,no,no,Europea,no,5,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,0,≤27,f,Middle Eastern ,no,no,Asia,no,3,18 and more,Self,NO
+0,0,1,1,0,0,0,1,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,3,18 and more,Self,NO
+1,1,1,1,1,0,0,1,1,0,>27,f,White-European,no,no,Europea,no,7,18 and more,Self,YES
+0,0,1,1,1,0,0,0,0,1,≤27,f,Others,yes,no,Asia,no,4,18 and more,Self,NO
+1,1,0,0,0,0,1,0,0,0,≤27,f,Black,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,1,>27,m,White-European,yes,no,Europea,no,3,18 and more,Self,NO
+1,1,0,1,1,0,0,0,0,0,≤27,m,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,0,0,1,0,0,0,>27,m,Asian,no,no,Asia,no,1,18 and more,Self,NO
+0,1,1,1,1,1,0,1,1,1,≤27,m,Middle Eastern ,yes,no,Oceania,no,8,18 and more,Self,YES
+1,1,1,1,1,0,0,1,0,0,≤27,m,Others,no,no,South America,no,6,18 and more,Self,NO
+0,0,0,1,0,0,0,0,0,0,>27,f,White-European,no,no,Europea,no,1,18 and more,Self,NO
+0,0,0,0,0,0,0,1,0,0,>27,f,Asian,no,no,Asia,no,1,18 and more,Self,NO
+0,1,1,1,1,1,0,0,1,0,≤27,f,Others,no,no,Asia,no,6,18 and more,Other,NO
+0,0,0,1,0,0,1,0,0,1,>27,f,White-European,no,no,Europea,no,3,18 and more,Self,NO
+1,1,0,1,1,1,1,1,0,1,>27,f,White-European,yes,no,North America,no,8,18 and more,Self,YES
+1,0,0,0,0,1,0,0,0,1,≤27,m,White-European,no,yes,Europea,no,3,18 and more,Self,NO
+0,0,1,1,0,1,1,1,1,1,≤27,m,White-European,no,no,Europea,no,7,18 and more,Other,YES
+1,0,1,1,0,1,0,0,0,1,≤27,m,White-European,no,no,Europea,no,5,18 and more,Other,NO
+1,1,1,1,1,1,1,1,1,1,≤27,f,Asian,no,no,North America,no,10,18 and more,Self,YES
+0,0,0,0,0,0,0,1,0,0,≤27,f,Asian,yes,no,Asia,no,1,18 and more,Self,NO
+0,0,0,0,0,1,0,1,1,0,≤27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,1,1,1,1,0,1,1,0,0,≤27,m,Others,no,no,Europea,no,7,18 and more,Self,YES
+1,0,1,1,1,0,0,0,0,0,≤27,f,South Asian,no,no,Oceania,no,4,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,1,>27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,1,1,0,1,0,0,0,≤27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,0,1,0,1,0,0,≤27,f,Asian,no,no,Asia,no,3,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,0,>27,f,South Asian,no,no,Asia,no,0,18 and more,Other,NO
+1,0,0,0,0,0,0,1,0,0,≤27,f,Asian,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,1,0,0,1,0,1,>27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,0,0,0,1,0,0,≤27,m,White-European,no,no,Asia,no,1,18 and more,Self,NO
+1,0,0,0,1,0,1,1,0,0,>27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,0,0,0,1,0,1,>27,m,White-European,no,no,Europea,no,2,18 and more,Other,NO
+0,0,0,0,0,0,1,0,0,1,>27,f,White-European,no,no,Europea,no,2,18 and more,Self,NO
+1,1,1,1,0,0,1,1,0,0,≤27,m,South Asian,no,no,North America,no,6,18 and more,Self,NO
+1,0,1,1,0,0,1,1,0,0,≤27,m,Others,no,no,Asia,no,5,18 and more,Self,NO
+0,1,0,0,0,0,0,1,1,0,≤27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,1,1,1,1,1,1,0,1,1,>27,m,White-European,no,no,Europea,no,9,18 and more,Self,YES
+1,1,0,1,1,1,0,0,1,1,>27,f,White-European,no,no,North America,no,7,18 and more,Self,YES
+0,1,1,0,0,0,1,0,0,1,≤27,m,Black,no,no,Africa,no,4,18 and more,Self,NO
+1,1,1,1,0,0,0,1,0,0,≤27,f,White-European,no,no,Europea,no,5,18 and more,Self,NO
+1,1,1,1,0,0,1,1,1,0,>27,m,Others,no,no,North America,no,7,18 and more,Self,YES
+0,0,0,0,0,0,0,0,0,0,>27,f,White-European,no,no,Europea,no,0,18 and more,Self,NO
+1,0,0,0,1,0,1,1,0,1,>27,m,Others,no,no,North America,no,5,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,m,Others,no,no,North America,no,10,18 and more,Self,YES
+1,1,1,1,0,0,1,0,0,1,≤27,m,White-European,no,no,Europea,no,6,18 and more,Self,NO
+1,0,1,1,0,0,0,0,0,0,>27,f,White-European,no,no,North America,no,3,18 and more,Self,NO
+0,0,0,1,0,0,0,1,0,1,>27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+0,1,1,1,1,1,1,0,1,1,>27,m,Asian,no,no,Asia,no,8,18 and more,Self,YES
+1,1,1,1,1,0,1,1,0,1,>27,f,Black,no,no,North America,no,8,18 and more,Self,YES
+1,1,0,0,0,0,0,1,0,0,>27,m,Black,no,no,Europea,no,3,18 and more,Other,NO
+0,1,1,1,1,0,0,0,1,0,>27,f,Black,no,yes,Europea,no,5,18 and more,Other,NO
+1,1,0,1,1,1,0,1,1,1,>27,f,Others,yes,no,North America,no,8,18 and more,Self,YES
+0,1,0,0,1,0,1,1,0,0,>27,m,White-European,no,no,Europea,no,4,18 and more,Self,NO
+1,0,1,1,1,0,0,1,0,1,≤27,f,White-European,no,yes,Europea,no,6,18 and more,Self,NO
+1,0,1,1,1,0,1,1,1,1,≤27,m,White-European,no,yes,Europea,no,8,18 and more,Other,YES
+1,0,1,0,1,0,1,1,0,1,>27,m,Others,yes,yes,Europea,no,6,18 and more,Self,NO
+1,0,1,0,0,0,1,0,0,1,>27,m,Asian,no,no,Europea,no,4,18 and more,Self,NO
+0,1,1,0,1,0,0,1,0,0,≤27,m,White-European,no,no,Europea,no,4,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,f,White-European,yes,yes,Europea,no,10,18 and more,Self,YES
+0,1,0,0,0,0,0,0,0,1,>27,f,White-European,yes,no,North America,no,2,18 and more,Self,NO
+0,1,1,1,1,1,1,1,0,1,≤27,f,White-European,no,no,North America,no,8,18 and more,Self,YES
+1,1,1,1,1,1,1,0,1,1,>27,m,White-European,no,no,Europea,no,9,18 and more,Self,YES
+1,1,1,0,0,0,0,0,0,1,≤27,f,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,1,1,0,0,0,0,0,0,>27,f,White-European,no,no,Europea,no,3,18 and more,Self,NO
+1,1,1,1,1,0,1,1,1,1,>27,f,White-European,no,no,North America,no,9,18 and more,Self,YES
+1,1,1,1,1,1,0,1,1,1,>27,m,White-European,no,no,Oceania,no,9,18 and more,Self,YES
+1,1,0,1,0,0,1,0,0,0,>27,f,White-European,no,yes,North America,no,4,18 and more,Other,NO
+1,0,1,1,1,0,1,0,1,1,>27,m,Black,no,no,Oceania,no,7,18 and more,Self,YES
+0,1,0,0,0,0,0,0,1,1,>27,f,Others,no,no,Oceania,no,3,18 and more,Self,NO
+0,0,1,1,0,0,0,0,0,1,>27,m,Middle Eastern ,no,no,Africa,no,3,18 and more,Self,NO
+1,1,1,1,1,0,0,1,1,1,≤27,f,White-European,no,yes,Europea,no,8,18 and more,Self,YES
+1,1,1,1,1,0,0,1,0,1,≤27,f,White-European,no,no,Asia,no,7,18 and more,Self,YES
+1,1,1,1,1,0,1,0,1,0,>27,f,White-European,yes,yes,North America,no,7,18 and more,Self,YES
+1,1,0,1,1,1,0,0,0,1,≤27,m,Black,yes,yes,North America,no,6,18 and more,Other,NO
+1,1,1,1,0,1,0,1,1,1,>27,m,White-European,no,no,Europea,no,8,18 and more,Self,YES
+1,0,0,0,0,0,1,1,0,1,≤27,f,Others,no,no,Europea,no,4,18 and more,Self,NO
+0,0,0,1,0,0,1,1,0,1,>27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,0,0,1,0,0,1,0,1,≤27,f,Others,no,no,Asia,no,3,18 and more,Other,NO
+1,1,1,1,1,1,1,1,1,1,>27,f,White-European,yes,yes,Oceania,no,10,18 and more,Self,YES
+0,1,0,0,0,0,0,1,0,0,>27,m,Black,no,no,Europea,no,2,18 and more,Self,NO
+1,0,0,0,1,0,0,0,0,0,>27,f,Black,no,no,Europea,no,2,18 and more,Self,NO
+1,1,0,0,0,0,1,1,0,0,>27,f,Others,no,no,South America,no,4,18 and more,Other,NO
+0,1,1,1,0,0,0,0,0,1,>27,f,White-European,yes,no,North America,no,4,18 and more,Self,NO
+0,1,1,1,1,1,1,1,1,1,≤27,m,White-European,no,no,Europea,no,9,18 and more,Self,YES
+0,0,0,1,1,0,1,0,0,1,≤27,f,Others,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,0,1,0,0,0,0,1,≤27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+0,1,0,0,1,0,0,0,0,0,>27,f,Others,no,no,Asia,no,2,18 and more,Self,NO
+0,1,0,0,1,1,0,0,1,1,>27,m,Others,no,no,Asia,no,5,18 and more,Other,NO
+1,0,1,0,0,1,0,1,0,0,>27,f,White-European,no,no,North America,no,4,18 and more,Self,NO
+0,1,1,1,1,1,0,0,0,1,≤27,m,White-European,no,no,North America,no,6,18 and more,Other,NO
+1,1,1,1,1,1,0,1,1,1,≤27,m,White-European,no,no,North America,no,9,18 and more,Other,YES
+0,1,0,0,0,0,0,0,0,0,>27,f,Middle Eastern ,yes,no,Oceania,no,1,18 and more,Other,NO
+0,1,1,1,1,1,1,1,1,1,>27,f,Asian,no,no,Asia,no,9,18 and more,Self,YES
+0,1,1,1,1,1,1,1,1,1,>27,f,Asian,no,yes,Asia,yes,9,18 and more,Self,YES
+1,0,1,1,1,1,1,1,1,1,>27,f,White-European,yes,no,Europea,no,9,18 and more,Self,YES
+1,0,1,1,1,1,1,0,0,1,>27,f,White-European,yes,no,Europea,no,7,18 and more,Self,YES
+1,0,1,1,0,0,0,0,0,1,>27,f,White-European,no,yes,Europea,no,4,18 and more,Self,NO
+0,1,1,1,0,0,0,1,0,1,>27,m,White-European,no,no,Europea,no,5,18 and more,Self,NO
+1,1,1,1,0,0,1,0,0,1,>27,m,White-European,no,no,Europea,no,6,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,no,yes,Europea,no,10,18 and more,Self,YES
+1,1,0,0,0,0,0,0,0,0,>27,f,White-European,no,yes,Europea,no,2,18 and more,Self,NO
+1,0,0,0,1,0,0,0,0,1,>27,f,White-European,no,yes,Oceania,no,3,18 and more,Self,NO
+0,0,1,0,0,0,0,0,0,0,≤27,m,Asian,no,no,South America,no,1,18 and more,Self,NO
+1,1,1,0,1,0,1,0,1,1,≤27,m,Middle Eastern ,no,no,Oceania,no,7,18 and more,Self,YES
+1,1,1,1,1,1,0,1,1,1,>27,m,White-European,no,no,Europea,no,9,18 and more,Other,YES
+1,0,0,1,1,0,0,1,0,0,≤27,f,Others,no,yes,North America,no,4,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,0,>27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,1,0,1,1,0,0,0,0,0,>27,m,Others,no,no,North America,no,4,18 and more,Self,NO
+1,1,1,1,1,1,1,1,0,1,≤27,f,White-European,no,no,North America,no,9,18 and more,Self,YES
+0,1,1,1,1,1,0,0,0,1,≤27,f,White-European,yes,no,Europea,no,6,18 and more,Self,NO
+1,1,1,1,1,1,1,0,1,1,>27,f,White-European,no,yes,North America,no,9,18 and more,Self,YES
+1,0,0,1,1,1,1,1,1,1,≤27,m,Black,no,no,North America,no,8,18 and more,Self,YES
+0,1,0,1,0,1,1,0,1,1,≤27,f,Middle Eastern ,no,no,Europea,no,6,18 and more,Other,NO
+1,0,0,0,0,0,1,1,1,0,≤27,m,White-European,no,no,Oceania,no,4,18 and more,Other,NO
+0,1,0,0,1,1,0,0,1,0,≤27,m,Others,no,no,Asia,yes,4,18 and more,Self,NO
+0,1,0,0,0,0,0,1,0,0,>27,f,Others,no,no,Asia,no,2,18 and more,Self,NO
+0,1,0,1,0,1,0,0,0,1,>27,m,Asian,no,no,Oceania,no,4,18 and more,Self,NO
+1,1,0,0,0,0,1,1,0,0,>27,m,White-European,no,no,Oceania,no,4,18 and more,Self,NO
+1,1,1,1,1,1,0,1,1,1,≤27,f,White-European,yes,yes,Europea,no,9,18 and more,Self,YES
+1,0,1,1,0,0,0,0,0,0,>27,f,White-European,no,no,Europea,no,3,18 and more,Self,NO
+1,1,0,1,0,0,0,0,0,1,>27,m,White-European,no,no,Oceania,no,4,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,1,>27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,1,0,0,0,1,0,0,>27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,no,yes,Europea,no,10,18 and more,Self,YES
+1,0,0,0,1,0,1,1,0,0,≤27,f,White-European,no,no,North America,no,4,18 and more,Self,NO
+1,0,0,0,1,0,1,1,0,0,≤27,f,White-European,no,no,North America,no,4,18 and more,Self,NO
+1,1,0,0,1,1,1,1,1,1,≤27,m,White-European,no,no,Europea,no,8,18 and more,Self,YES
+1,1,1,1,1,0,1,1,1,1,>27,m,White-European,yes,no,Oceania,no,9,18 and more,Self,YES
+1,1,1,1,1,0,0,1,1,1,>27,f,White-European,no,yes,Europea,no,8,18 and more,Self,YES
+1,1,0,0,0,0,0,1,0,0,>27,f,Asian,no,yes,North America,no,3,18 and more,Self,NO
+0,0,1,1,0,0,0,0,0,0,>27,m,Black,no,no,Europea,no,2,18 and more,Self,NO
+1,1,0,0,1,0,0,0,0,1,>27,f,Black,no,no,Europea,no,4,18 and more,Other,NO
+1,1,0,0,1,1,0,1,1,0,>27,f,Black,yes,no,Europea,no,6,18 and more,Other,NO
+1,1,0,1,1,1,0,1,1,0,>27,f,Black,yes,yes,Europea,no,7,18 and more,Other,YES
+1,1,1,1,1,0,0,1,0,1,>27,m,Others,no,no,North America,no,7,18 and more,Self,YES
+1,0,1,1,0,0,1,0,0,1,>27,f,White-European,no,no,Europea,no,5,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,≤27,m,Black,no,no,Europea,no,10,18 and more,Self,YES
+1,1,1,1,1,1,0,1,1,1,≤27,m,Black,no,no,Europea,no,9,18 and more,Self,YES
+1,0,1,1,1,1,1,1,1,1,>27,f,Others,no,no,Oceania,no,9,18 and more,Self,YES
+1,1,1,0,0,0,0,0,0,0,≤27,f,Asian,no,no,Oceania,no,3,18 and more,Self,NO
+0,1,1,1,0,0,0,1,1,0,>27,f,Asian,no,no,North America,no,5,18 and more,Self,NO
+0,1,1,1,1,0,1,0,1,0,≤27,m,Middle Eastern ,no,no,Asia,no,6,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,yes,no,Europea,no,10,18 and more,Self,YES
+1,0,0,0,0,0,0,0,0,0,≤27,m,Others,no,no,Europea,no,1,18 and more,Self,NO
+1,0,0,0,1,0,0,0,1,1,>27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,0,≤27,m,Others,no,no,Asia,no,3,18 and more,Self,NO
+1,1,0,0,0,0,0,1,0,1,≤27,m,Asian,no,no,Oceania,no,4,18 and more,Self,NO
+1,0,0,0,1,0,1,1,0,1,≤27,m,Asian,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,1,≤27,f,South Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,1,0,0,0,1,1,1,>27,f,Asian,no,no,Asia,no,6,18 and more,Other,NO
+1,0,0,0,0,0,0,1,1,0,≤27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,0,0,0,0,1,0,0,>27,f,Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,0,0,0,0,0,0,0,≤27,f,Asian,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,0,0,0,1,0,0,>27,f,Asian,no,no,Oceania,no,2,18 and more,Self,NO
+1,0,0,0,0,0,1,0,0,1,>27,f,Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,0,1,1,0,1,0,0,≤27,f,South Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,0,≤27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+0,0,0,0,0,0,0,1,0,0,>27,f,Asian,yes,no,Asia,no,1,18 and more,Self,NO
+1,0,0,0,0,0,0,0,0,0,>27,m,White-European,no,no,Europea,no,1,18 and more,Self,NO
+1,0,0,1,0,0,1,1,0,0,≤27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,0,1,0,1,1,0,1,0,1,≤27,m,Asian,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,1,0,1,1,0,0,≤27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,1,1,1,0,0,0,0,0,1,≤27,f,South Asian,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,0,0,0,0,0,0,≤27,m,South Asian,no,no,Asia,no,1,18 and more,Self,NO
+1,1,0,1,0,0,0,1,0,1,≤27,f,South Asian,no,no,Asia,no,5,18 and more,Self,NO
+1,0,1,1,0,1,0,1,0,1,≤27,f,South Asian,no,no,Asia,no,6,18 and more,Self,NO
+1,0,0,0,1,0,1,0,0,0,≤27,m,South Asian,no,no,Asia,no,3,18 and more,Self,NO
+0,0,0,1,1,0,0,1,0,1,≤27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,0,0,0,0,0,0,1,≤27,f,South Asian,no,no,Asia,no,2,18 and more,Self,NO
+1,0,0,1,0,0,0,1,0,1,>27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+0,1,0,0,1,0,1,1,0,0,>27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,1,1,1,0,1,1,1,0,≤27,f,South Asian,no,no,Asia,no,7,18 and more,Self,YES
+1,0,0,0,1,0,1,1,0,0,≤27,f,Asian,no,no,Oceania,no,4,18 and more,Self,NO
+1,0,0,1,1,0,1,1,1,1,≤27,m,Asian,no,no,Oceania,no,7,18 and more,Self,YES
+1,0,0,0,0,0,0,1,0,1,>27,f,South Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,1,0,1,0,1,1,0,1,≤27,f,Asian,no,no,Asia,no,6,18 and more,Self,NO
+1,0,1,0,0,0,0,1,0,0,≤27,m,Asian,yes,no,Asia,no,3,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,0,≤27,m,Asian,no,no,Asia,no,3,18 and more,Self,NO
+1,0,0,0,1,0,1,1,0,1,≤27,f,Others,no,no,Asia,no,5,18 and more,Self,NO
+1,0,0,0,1,0,1,1,1,1,≤27,f,Asian,no,no,Asia,no,6,18 and more,Self,NO
+1,1,0,1,1,0,1,1,0,0,>27,m,Asian,no,no,Asia,no,6,18 and more,Self,NO
+0,0,0,0,0,0,1,0,0,1,≤27,m,Asian,no,no,Asia,no,2,18 and more,Self,NO
+0,0,1,0,0,0,0,1,0,0,>27,f,Asian,no,no,Asia,no,2,18 and more,Other,NO
+1,1,0,0,1,0,0,1,1,1,≤27,f,Middle Eastern ,no,no,Asia,no,6,18 and more,Self,NO
+1,0,1,0,1,0,1,1,1,1,≤27,m,Black,no,no,Asia,no,7,18 and more,Self,YES
+0,1,1,0,0,0,1,0,0,1,>27,m,White-European,no,no,Europea,no,4,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,0,≤27,f,Others,no,no,Europea,no,0,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,≤27,f,White-European,no,no,Europea,no,10,18 and more,Self,YES
+1,1,0,1,1,0,0,1,0,0,≤27,m,Black,no,no,North America,no,5,18 and more,Self,NO
+1,0,0,0,1,1,1,1,1,1,>27,m,Black,no,no,North America,no,7,18 and more,Other,YES
+1,1,1,0,0,0,0,1,0,0,≤27,m,Asian,no,no,Asia,no,4,18 and more,Self,NO
+1,0,1,1,1,0,1,1,1,0,>27,m,Others,no,no,North America,no,7,18 and more,Self,YES
+0,0,0,0,1,0,0,1,0,0,>27,f,Others,no,no,Oceania,no,2,18 and more,Self,NO
+1,0,0,0,0,0,0,0,0,0,>27,f,Middle Eastern ,no,no,Oceania,no,1,18 and more,Other,NO
+1,0,1,1,1,0,0,1,0,1,≤27,m,Middle Eastern ,yes,no,Oceania,no,6,18 and more,Other,NO
+1,0,1,1,0,0,1,1,1,1,≤27,m,Others,no,yes,Oceania,no,7,18 and more,Self,YES
+1,1,1,1,0,0,0,0,0,0,>27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+1,0,1,0,0,1,0,1,0,1,≤27,m,White-European,yes,no,Africa,no,5,18 and more,Other,NO
+1,0,1,1,1,0,0,0,0,0,>27,f,Middle Eastern ,no,no,Asia,no,4,18 and more,Self,NO
+0,1,1,1,0,0,0,0,0,0,>27,m,Middle Eastern ,yes,no,Asia,yes,3,18 and more,Self,NO
+1,1,0,0,0,0,0,0,0,0,>27,f,Middle Eastern ,yes,no,Asia,no,2,18 and more,Self,NO
+1,0,0,0,0,0,1,0,0,1,>27,m,Others,yes,no,Asia,no,3,18 and more,Self,NO
+0,0,0,0,0,0,0,0,0,1,>27,f,Others,no,no,North America,no,1,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,f,White-European,no,yes,North America,no,10,18 and more,Self,YES
+1,1,1,1,1,0,1,1,1,1,>27,m,Asian,no,no,North America,no,9,18 and more,Self,YES
+1,0,0,1,1,0,1,0,0,1,>27,f,White-European,no,yes,Europea,no,5,18 and more,Self,NO
+1,0,0,0,1,0,1,0,1,1,≤27,m,Asian,no,no,Asia,no,5,18 and more,Self,NO
+1,1,0,0,1,0,1,0,1,0,>27,m,Others,no,no,North America,no,5,18 and more,Self,NO
+0,0,1,1,0,0,1,0,0,0,>27,m,Others,no,no,Europea,no,3,18 and more,Self,NO
+1,1,1,1,1,1,0,0,1,1,>27,m,Others,no,no,Asia,no,8,18 and more,Self,YES
+1,1,1,0,1,1,0,1,1,1,≤27,f,White-European,no,no,Europea,no,8,18 and more,Self,YES
+1,1,1,1,1,1,0,1,1,1,>27,f,Others,yes,yes,Oceania,no,9,18 and more,Self,YES
+1,0,0,1,1,1,0,0,1,0,≤27,m,White-European,no,no,Europea,no,5,18 and more,Self,NO
+1,0,0,0,0,0,1,1,0,1,>27,m,White-European,no,no,Oceania,no,4,18 and more,Self,NO
+0,0,0,0,0,0,1,1,0,1,≤27,m,White-European,no,no,North America,no,3,18 and more,Self,NO
+1,1,1,1,1,1,1,0,1,1,>27,m,White-European,no,no,North America,no,9,18 and more,Self,YES
+0,0,0,0,0,0,0,1,0,0,>27,m,Others,no,no,Asia,no,1,18 and more,Self,NO
+0,0,1,0,0,0,1,1,0,0,>27,f,Middle Eastern ,no,no,Oceania,no,3,18 and more,Other,NO
+1,0,0,0,0,0,1,1,0,1,>27,m,White-European,no,no,North America,no,4,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,no,no,North America,no,10,18 and more,Self,YES
+1,1,1,1,1,0,1,1,1,1,>27,m,Others,no,no,North America,no,9,18 and more,Self,YES
+1,1,1,1,1,0,0,1,0,1,≤27,m,Others,no,no,North America,no,7,18 and more,Self,YES
+1,1,1,1,1,0,1,1,0,1,≤27,m,White-European,no,no,Europea,no,8,18 and more,Self,YES
+1,1,1,0,1,0,1,1,1,1,>27,m,Others,no,no,North America,no,8,18 and more,Self,YES
+1,1,0,0,1,1,0,1,0,1,≤27,f,White-European,yes,no,Europea,no,6,18 and more,Self,NO
+1,1,1,1,0,0,0,0,1,0,≤27,f,White-European,yes,no,North America,no,5,18 and more,Self,NO
+1,1,0,0,0,0,1,0,0,1,>27,m,White-European,yes,no,Europea,no,4,18 and more,Other,NO
+1,0,0,0,0,0,1,0,0,1,≤27,m,Black,no,no,Africa,no,3,18 and more,Other,NO
+1,1,1,1,1,0,0,1,1,1,>27,f,Black,no,no,North America,no,8,18 and more,Self,YES
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,no,yes,Asia,no,10,18 and more,Self,YES
+1,1,1,1,1,1,1,1,1,1,>27,m,White-European,yes,yes,Europea,no,10,18 and more,Other,YES
+1,1,0,1,1,1,1,1,1,1,>27,f,Others,no,no,North America,no,9,18 and more,Self,YES
+1,1,0,0,0,0,0,1,0,0,≤27,m,Others,no,no,North America,no,3,18 and more,Self,NO
+1,1,0,0,0,0,0,1,1,0,>27,f,White-European,yes,yes,North America,no,4,18 and more,Self,NO
+1,0,1,0,0,0,0,1,0,1,>27,m,Others,no,no,North America,no,4,18 and more,Other,NO
+1,0,1,1,1,0,0,1,1,1,>27,m,White-European,no,yes,Europea,no,7,18 and more,Self,YES
+1,0,0,0,1,0,1,1,0,1,>27,m,White-European,no,no,North America,no,5,18 and more,Self,NO
+1,1,1,0,1,1,1,1,1,1,>27,m,White-European,no,no,North America,no,9,18 and more,Self,YES
+1,0,1,1,1,1,1,0,1,1,≤27,m,Black,no,no,North America,no,8,18 and more,Self,YES
+1,0,0,0,1,1,1,1,1,1,>27,f,White-European,no,no,North America,no,7,18 and more,Self,YES
+0,0,0,0,1,0,0,0,0,0,>27,f,Asian,yes,no,Asia,no,1,18 and more,Self,NO
+1,0,0,1,0,0,1,1,0,0,≤27,m,Black,no,no,North America,no,4,18 and more,Self,NO
+1,1,1,0,1,1,1,1,0,1,>27,m,White-European,no,no,North America,no,8,18 and more,Self,YES
+1,0,0,1,0,0,0,1,0,1,>27,f,White-European,no,no,Europea,no,4,18 and more,Self,NO
+1,1,1,1,1,0,0,1,0,1,≤27,m,White-European,yes,no,North America,no,7,18 and more,Self,YES
+1,0,1,1,0,0,1,1,0,0,>27,m,Others,no,no,Europea,yes,5,18 and more,Other,NO
+1,1,1,1,1,1,0,1,1,1,>27,m,Others,no,yes,Oceania,no,9,18 and more,Self,YES
+1,1,1,1,1,0,0,0,0,1,>27,f,Asian,no,no,Asia,no,6,18 and more,Self,NO
+1,1,1,1,1,1,1,1,1,1,≤27,f,Others,no,no,Oceania,no,10,18 and more,Self,YES
+0,1,0,1,1,0,1,1,1,1,≤27,f,White-European,no,no,Europea,no,7,18 and more,Self,YES
+1,0,0,0,0,0,0,1,0,1,>27,m,Others,no,no,North America,no,3,18 and more,Other,NO
+1,0,1,1,1,0,1,1,0,1,≤27,f,Others,no,no,Europea,no,7,18 and more,Self,YES
+1,0,0,1,1,0,1,0,1,1,>27,m,South Asian,no,no,Asia,no,6,18 and more,Self,NO
+1,0,1,1,1,0,1,1,1,1,≤27,f,White-European,no,no,Asia,no,8,18 and more,Self,YES
